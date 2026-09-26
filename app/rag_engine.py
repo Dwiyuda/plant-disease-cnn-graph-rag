@@ -86,6 +86,12 @@ class Neo4jConnection:
 # ─────────────────────────────────────────────
 class RAGEngine:
     def __init__(self):
+        kurang = [k for k in ("NEO4J_URI", "NEO4J_USER", "NEO4J_PASSWORD", "GROQ_API_KEY") if not os.getenv(k)]
+        if kurang:
+            raise RuntimeError(
+                f"Kredensial belum di-set: {', '.join(kurang)}. "
+                "Salin app/.env.example menjadi app/.env lalu isi nilainya."
+            )
         self.neo4j  = Neo4jConnection(NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD)
         self.groq   = Groq(api_key=GROQ_API_KEY)
         print("  🔗 Neo4j terhubung")
