@@ -1,0 +1,11 @@
+{
+  "split": "SPLIT_70_15_15",
+  "test_accuracy": 0.9785,
+  "test_precision": 0.9793,
+  "test_recall": 0.9785,
+  "test_f1": 0.9787,
+  "test_accuracy_threshold": 0.9714,
+  "test_f1_threshold": 0.9716,
+  "epochs_trained": 24,
+  "best_val_loss": 0.0784
+}

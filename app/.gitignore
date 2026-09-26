@@ -1,0 +1,15 @@
+# Environment lokal
+.venv/
+venv/
+venv_eval/
+__pycache__/
+*.pyc
+
+# Artefak runtime & cadangan lokal
+.gradio/
+*.bak_local
+test_graph.html
+
+# CATATAN: `.env` sengaja TIDAK diabaikan. Repository ini privat dan kredensial
+# ikut di-commit atas permintaan pemilik repo, supaya sistem bisa langsung
+# dijalankan di laptop. Rotasi kredensial setelah rilis.

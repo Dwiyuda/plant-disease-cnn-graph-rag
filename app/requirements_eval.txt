@@ -1,0 +1,9 @@
+# Dependensi evaluasi RAGAS (terpisah dari requirements.txt sistem utama)
+# Disarankan menyematkan (pin) versi agar evaluasi reproducible saat evaluasi.
+
+ragas==0.2.15
+langchain-openai>=0.2.0,<0.4.0
+langchain-huggingface>=0.1.0
+sentence-transformers>=3.0.0
+datasets>=2.19.0
+pandas>=2.0.0

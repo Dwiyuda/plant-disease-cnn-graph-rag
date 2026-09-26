@@ -1,0 +1,48 @@
+# ─────────────────────────────────────────────
+# Environment Python — dibangun ulang di tiap mesin, tidak perlu di-push
+# ─────────────────────────────────────────────
+venv/
+venv_eval/
+.venv/
+_venv-lama-laptop/
+_env_cache/
+__pycache__/
+*.pyc
+
+# ─────────────────────────────────────────────
+# Dataset gambar — terlalu besar untuk Git.
+# Ada di device: .\dataset\
+# ─────────────────────────────────────────────
+dataset/
+
+# ─────────────────────────────────────────────
+# Bobot model besar (±90 MB per berkas).
+# Yang DI-PUSH hanya model aktif: app/models/resnet50_final.pt
+# Sisanya ada di device pada folder hasil-training\
+# ─────────────────────────────────────────────
+hasil-training/**/*.pt
+hasil-training/*.zip
+app/models/resnet50_final_12class_backup.pt
+
+# ─────────────────────────────────────────────
+# Artefak runtime & cadangan lokal
+# ─────────────────────────────────────────────
+.gradio/
+*.bak_local
+app/test_graph.html
+
+# ─────────────────────────────────────────────
+# Setelan editor / tooling lokal
+# ─────────────────────────────────────────────
+.vscode/
+.claude/
+
+# ─────────────────────────────────────────────
+# CATATAN KEAMANAN
+# app/.env SENGAJA ikut di-commit atas permintaan pemilik repo, karena
+# repository ini privat dan user perlu menjalankan sistem langsung.
+# Kredensial di dalamnya WAJIB dirotasi setelah rilis atau bila repo
+# sewaktu-waktu diubah jadi publik.
+# ─────────────────────────────────────────────
+.env
+.ipynb_checkpoints/

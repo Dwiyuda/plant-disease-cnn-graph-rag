@@ -1,0 +1,48 @@
+SPLIT: SPLIT_50_25_25
+TEST  acc 0.9679 | prec 0.9693 | rec 0.9679 | f1 0.9679
+
+Classification report (argmax):
+                                               precision    recall  f1-score   support
+
+                             apel__apple_scab       1.00      1.00      1.00        68
+                              apel__black_rot       1.00      1.00      1.00        68
+                       apel__cedar_apple_rust       0.96      1.00      0.98        64
+                       grape__grape_black_rot       0.96      0.99      0.97        69
+              grape__grape_esca_black_measles       1.00      0.96      0.98        68
+grape__grape_leaf_blight_isariopsis_leaf_spot       1.00      1.00      1.00        68
+                           jagung__cercospora       0.91      0.93      0.92        68
+                          jagung__common_rust       1.00      0.94      0.97        69
+                          jagung__leaf_blight       0.89      0.94      0.91        68
+                        tomat__bacterial_spot       1.00      1.00      1.00        66
+                          tomat__early_blight       0.89      0.99      0.94        69
+                           tomat__late_blight       0.98      0.85      0.91        68
+                                      unknown       0.99      0.98      0.99       121
+
+                                     accuracy                           0.97       934
+                                    macro avg       0.97      0.97      0.97       934
+                                 weighted avg       0.97      0.97      0.97       934
+
+
+Dengan threshold 0.7 -> unknown:  acc 0.9625 | f1 0.9625
+
+Classification report (dengan threshold):
+                                               precision    recall  f1-score   support
+
+                             apel__apple_scab       1.00      1.00      1.00        68
+                              apel__black_rot       1.00      1.00      1.00        68
+                       apel__cedar_apple_rust       1.00      0.98      0.99        64
+                       grape__grape_black_rot       0.97      0.99      0.98        69
+              grape__grape_esca_black_measles       1.00      0.93      0.96        68
+grape__grape_leaf_blight_isariopsis_leaf_spot       1.00      1.00      1.00        68
+                           jagung__cercospora       0.93      0.93      0.93        68
+                          jagung__common_rust       1.00      0.94      0.97        69
+                          jagung__leaf_blight       0.91      0.94      0.93        68
+                        tomat__bacterial_spot       1.00      0.97      0.98        66
+                          tomat__early_blight       0.92      0.97      0.94        69
+                           tomat__late_blight       0.98      0.84      0.90        68
+                                      unknown       0.89      1.00      0.94       121
+
+                                     accuracy                           0.96       934
+                                    macro avg       0.97      0.96      0.96       934
+                                 weighted avg       0.96      0.96      0.96       934
+

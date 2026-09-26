@@ -1,0 +1,362 @@
+[
+  {
+    "kelas": "apple_scab",
+    "tipe": "penyebab",
+    "pertanyaan": "Apa penyebab Kudis Apel (Apple Scab) dan dalam kondisi apa penyakit ini berkembang?",
+    "acuan": "Kudis Apel (Apple Scab) disebabkan oleh Jamur Ascomycete Venturia inaequalis. Spora (askospora) dari daun gugur terinfeksi yang melewati musim dingin di tanah. Penyakit ini berkembang pesat pada kondisi: Cuaca lembap dan sejuk di musim semi (suhu 10–24°C); Permukaan daun basah lebih dari 9 jam berturut-turut; Curah hujan tinggi sejak pembengkakan tunas hingga akhir pembungaan."
+  },
+  {
+    "kelas": "apple_scab",
+    "tipe": "gejala",
+    "pertanyaan": "Apa saja gejala yang muncul pada tanaman yang terserang Kudis Apel (Apple Scab)?",
+    "acuan": "Gejala Kudis Apel (Apple Scab) meliputi: Bercak hijau-zaitun beludru pada permukaan bawah daun muda; Bercak cokelat gelap berbatas tegas pada daun yang lebih tua; Buah menunjukkan bercak kasar berwarna zaitun-cokelat, bisa retak dan cacat; Gugur daun prematur hingga menggundulkan pohon di musim panas; Ranting muda dapat terinfeksi dan menunjukkan bercak kabur keunguan."
+  },
+  {
+    "kelas": "apple_scab",
+    "tipe": "penanganan",
+    "pertanyaan": "Bagaimana cara menangani Kudis Apel (Apple Scab) yang sudah terinfeksi?",
+    "acuan": "Penanganan Kudis Apel (Apple Scab) dapat dilakukan dengan: Score 250 EC (Difenokonazol) (Difenokonazol 250 g/L, dosis 0,25–0,5 ml/liter air) — cara: Semprot merata seluruh permukaan daun dan buah muda, termasuk bagian bawah daun; waktu: Mulai fase pecah tunas (green tip) hingga setelah kelopak bunga jatuh; ulangi setiap 7–10 hari saat cuaca basah; Nativo 75 WG (Tebukonazol + Trifloksistrobin) (Tebukonazol 50% + Trifloksistrobin 25%, dosis 0,3–0,5 g/liter air) — cara: Semprot merata saat tunas mulai membuka; tambahkan perekat (sticker) untuk adhesi lebih baik; waktu: Fase tunas hijau hingga pembentukan buah; interval 10–14 hari; Fungisida Tembaga (Copper Hydroxide / Bordeaux Mixture) (Tembaga Hidroksida atau Tembaga Sulfat + Kapur, dosis 2–3 g/liter air (copper hydroxide); ikuti label produk) — cara: Semprot sebelum hujan untuk perlindungan preventif; waktu: Dorman hingga pembengkakan tunas; juga setelah panen untuk sanitasi."
+  },
+  {
+    "kelas": "apple_scab",
+    "tipe": "pencegahan",
+    "pertanyaan": "Bagaimana cara mencegah serangan Kudis Apel (Apple Scab)?",
+    "acuan": "Pencegahan Kudis Apel (Apple Scab) meliputi: Tanam varietas apel tahan kudis (scab-resistant) seperti Liberty, Redfree, atau Enterprise. Bersihkan dan musnahkan semua daun gugur di bawah pohon sebelum musim hujan; ini menghilangkan sumber spora utama. Lakukan pemangkasan rutin untuk meningkatkan sirkulasi udara dan mempercepat pengeringan daun. Atur jarak tanam cukup lebar agar kanopi tidak terlalu rapat. Hindari irigasi semprot dari atas; gunakan irigasi tetes atau selang bawah kanopi. Mulsa di bawah pohon untuk mencegah spora tanah terpercik ke daun."
+  },
+  {
+    "kelas": "apple_scab",
+    "tipe": "perawatan",
+    "pertanyaan": "Perawatan apa yang perlu dilakukan pada tanaman untuk mendukung pemulihan dan ketahanan terhadap Kudis Apel (Apple Scab)?",
+    "acuan": "Perawatan untuk tanaman yang terserang atau rentan Kudis Apel (Apple Scab) meliputi: Berikan pupuk Nitrogen pasca panen untuk mempercepat dekomposisi daun terinfeksi. Pemupukan NPK seimbang + unsur mikro (Zn, B, Mn) untuk memperkuat sistem imun pohon. Gunakan mulsa organik di pangkal pohon untuk menekan kelembapan dan spora tanah. Monitor secara rutin sejak fase green tip; catat tingkat keparahan tiap minggu. Cabut dan bakar ranting bergejala scab saat pemangkasan dorman."
+  },
+  {
+    "kelas": "apple_black_rot",
+    "tipe": "penyebab",
+    "pertanyaan": "Apa penyebab Busuk Hitam Apel (Black Rot) dan dalam kondisi apa penyakit ini berkembang?",
+    "acuan": "Busuk Hitam Apel (Black Rot) disebabkan oleh Jamur Ascomycete Botryosphaeria obtusa. Spora dari kayu mati, mumi buah, dan kanker batang yang bertahan sepanjang tahun. Penyakit ini berkembang pesat pada kondisi: Kelembapan tinggi dan suhu hangat (24–29°C); Luka terbuka: bekas pangkasan, lubang serangga, atau kerusakan es; Pohon yang lemah akibat kekurangan nutrisi atau stres kekeringan."
+  },
+  {
+    "kelas": "apple_black_rot",
+    "tipe": "gejala",
+    "pertanyaan": "Apa saja gejala yang muncul pada tanaman yang terserang Busuk Hitam Apel (Black Rot)?",
+    "acuan": "Gejala Busuk Hitam Apel (Black Rot) meliputi: Bercak 'mata katak' (frog-eye) pada daun: lingkaran cokelat dengan tepi ungu kemerahan; Buah membusuk mulai dari ujung mahkota atau luka, membentuk cincin konsentris hitam-cokelat; Buah busuk mengering menjadi 'mumi' keras berwarna hitam yang menempel di pohon; Kanker (canker) gelap memanjang pada ranting dan batang, mengelupas membentuk retakan; Ranting mati dan mengering dari ujung ke pangkal."
+  },
+  {
+    "kelas": "apple_black_rot",
+    "tipe": "penanganan",
+    "pertanyaan": "Bagaimana cara menangani Busuk Hitam Apel (Black Rot) yang sudah terinfeksi?",
+    "acuan": "Penanganan Busuk Hitam Apel (Black Rot) dapat dilakukan dengan: Dithane M-45 (Mankozeb) (Mankozeb 80% WP, dosis 1,5–2 g/liter air) — cara: Semprot merata seluruh tajuk pohon, termasuk batang dan ranting; waktu: Mulai pembengkakan tunas; ulangi setiap 7–10 hari selama cuaca lembap; Topsin M 70 WP (Metil Tiofanat) (Metil Tiofanat 70%, dosis 1–1,5 g/liter air; untuk olesan luka: buat pasta kental) — cara: Semprot atau oleskan pasta pada bekas pangkasan dan kanker yang telah dibersihkan; waktu: Segera setelah pemangkasan atau saat deteksi kanker awal."
+  },
+  {
+    "kelas": "apple_black_rot",
+    "tipe": "pencegahan",
+    "pertanyaan": "Bagaimana cara mencegah serangan Busuk Hitam Apel (Black Rot)?",
+    "acuan": "Pencegahan Busuk Hitam Apel (Black Rot) meliputi: Pangkas dan bakar semua ranting mati, kayu bergejala kanker, dan mumi buah. Lakukan pemangkasan dorman hanya saat cuaca kering untuk meminimalkan waktu luka terbuka. Oleskan pasta fungisida atau sealant luka pada setiap bekas potongan diameter > 1 cm. Gunakan bibit berlabel bebas penyakit dari sumber terpercaya. Hindari penumpukan kayu sisa pangkasan di dalam kebun. Jaga nutrisi pohon — pohon sehat lebih tahan terhadap infeksi."
+  },
+  {
+    "kelas": "apple_black_rot",
+    "tipe": "perawatan",
+    "pertanyaan": "Perawatan apa yang perlu dilakukan pada tanaman untuk mendukung pemulihan dan ketahanan terhadap Busuk Hitam Apel (Black Rot)?",
+    "acuan": "Perawatan untuk tanaman yang terserang atau rentan Busuk Hitam Apel (Black Rot) meliputi: Monitor kulit kayu secara rutin untuk deteksi dini kanker; potong hingga jaringan sehat. Sterilkan alat pangkas dengan alkohol 70% atau larutan pemutih 10% antar pohon. Pastikan drainase lahan baik; genangan air memperlemah akar dan meningkatkan kerentanan. Pemberian Kalsium dan Kalium membantu penguatan dinding sel buah. Buang semua mumi buah saat akhir musim sebelum musim hujan berikutnya."
+  },
+  {
+    "kelas": "apple_cedar_rust",
+    "tipe": "penyebab",
+    "pertanyaan": "Apa penyebab Karat Apel (Cedar Apple Rust) dan dalam kondisi apa penyakit ini berkembang?",
+    "acuan": "Karat Apel (Cedar Apple Rust) disebabkan oleh Jamur Basidiomycete (patogen heteroecious — butuh dua inang) Gymnosporangium juniperi-virginianae. Spora dari teliospora (galls) pada pohon Cedar/Juniper yang menyebar via angin ke apel saat musim semi basah. Penyakit ini berkembang pesat pada kondisi: Musim semi basah dengan suhu 10–20°C; Keberadaan pohon Juniper atau Cedar dalam radius 500 meter dari kebun apel; Hujan dan angin saat pohon Juniper berbuah (galls oranye gelatin)."
+  },
+  {
+    "kelas": "apple_cedar_rust",
+    "tipe": "gejala",
+    "pertanyaan": "Apa saja gejala yang muncul pada tanaman yang terserang Karat Apel (Cedar Apple Rust)?",
+    "acuan": "Gejala Karat Apel (Cedar Apple Rust) meliputi: Bercak oranye-kuning cerah di sisi atas daun, berdiameter 1–2 cm; Bagian bawah bercak tumbuh struktur tubular seperti jari (aecia) berwarna oranye; Bercak oranye pada buah muda dekat ujung bunga; Daun terinfeksi parah menguning dan gugur lebih awal; Deformasi buah pada infeksi berat."
+  },
+  {
+    "kelas": "apple_cedar_rust",
+    "tipe": "penanganan",
+    "pertanyaan": "Bagaimana cara menangani Karat Apel (Cedar Apple Rust) yang sudah terinfeksi?",
+    "acuan": "Penanganan Karat Apel (Cedar Apple Rust) dapat dilakukan dengan: Nativo 75 WG (Tebukonazol + Trifloksistrobin) (Tebukonazol 50% + Trifloksistrobin 25%, dosis 0,5 g/liter air) — cara: Semprot merata ke seluruh kanopi, fokus pada daun baru dan buah muda; waktu: Mulai fase tunas hijau (pink bud) hingga 4 minggu setelah kelopak jatuh; interval 7–10 hari; Score 250 EC (Difenokonazol) (Difenokonazol 250 g/L, dosis 0,25–0,5 ml/liter air) — cara: Semprot merata daun dan tunas muda; waktu: Saat deteksi gejala awal; aplikasi 2–3 kali di musim semi."
+  },
+  {
+    "kelas": "apple_cedar_rust",
+    "tipe": "pencegahan",
+    "pertanyaan": "Bagaimana cara mencegah serangan Karat Apel (Cedar Apple Rust)?",
+    "acuan": "Pencegahan Karat Apel (Cedar Apple Rust) meliputi: Hindari menanam apel dalam radius 500 meter dari pohon Juniper atau Cedar (inang alternasif wajib). Tanam varietas apel tahan karat (rust-resistant) seperti Redfree, Liberty, Goldrush. Musnahkan galls (benjolan gelatin oranye) dari pohon Juniper di sekitar kebun sebelum musim semi. Semprot fungisida preventif DMI sebelum kuncup mekar saat prakiraan cuaca basah. Tingkatkan sirkulasi udara dengan pemangkasan rutin."
+  },
+  {
+    "kelas": "apple_cedar_rust",
+    "tipe": "perawatan",
+    "pertanyaan": "Perawatan apa yang perlu dilakukan pada tanaman untuk mendukung pemulihan dan ketahanan terhadap Karat Apel (Cedar Apple Rust)?",
+    "acuan": "Perawatan untuk tanaman yang terserang atau rentan Karat Apel (Cedar Apple Rust) meliputi: Aplikasikan fungisida sistemik segera setelah hujan musim semi yang pertama untuk proteksi kuratif. Berikan pupuk Seng (Zn) dan Boron (B) untuk memperkuat dinding sel daun. Monitor intensif dari fase pink bud hingga 4–6 minggu setelah berbunga. Catat lokasi pohon Juniper terdekat dan jadikan referensi untuk penentuan waktu semprot. Lakukan sanitasi kebun di akhir musim untuk mengurangi inokulum."
+  },
+  {
+    "kelas": "corn_cercospora",
+    "tipe": "penyebab",
+    "pertanyaan": "Apa penyebab Gray Leaf Spot Jagung (Cercospora) dan dalam kondisi apa penyakit ini berkembang?",
+    "acuan": "Gray Leaf Spot Jagung (Cercospora) disebabkan oleh Jamur Deuteromycete (jamur konidial) Cercospora zeae-maydis. Konidia yang tersisa pada sisa tanaman terinfeksi di permukaan tanah antar musim. Penyakit ini berkembang pesat pada kondisi: Kelembapan relatif ≥90% selama ≥12 jam berturut-turut; Suhu hangat 25–30°C; Sistem olah tanah minimum (no-till) yang meninggalkan sisa tanaman di permukaan; Penanaman jagung terus-menerus (monokultur) tanpa rotasi."
+  },
+  {
+    "kelas": "corn_cercospora",
+    "tipe": "gejala",
+    "pertanyaan": "Apa saja gejala yang muncul pada tanaman yang terserang Gray Leaf Spot Jagung (Cercospora)?",
+    "acuan": "Gejala Gray Leaf Spot Jagung (Cercospora) meliputi: Lesi persegi panjang panjang (hingga 5 cm) berwarna tan-abu-abu, sejajar sejajar urat daun; Tepi lesi dibatasi oleh urat daun yang memberi penampilan 'kotak-kotak' atau persegi; Pada kondisi lembap, lesi tampak berdebu abu-abu akibat sporulasi jamur; Lesi bermula di daun-daun bawah, kemudian menyebar ke atas; Infeksi berat menyebabkan hawar daun masif, rebah (lodging), dan penurunan bobot biji."
+  },
+  {
+    "kelas": "corn_cercospora",
+    "tipe": "penanganan",
+    "pertanyaan": "Bagaimana cara menangani Gray Leaf Spot Jagung (Cercospora) yang sudah terinfeksi?",
+    "acuan": "Penanganan Gray Leaf Spot Jagung (Cercospora) dapat dilakukan dengan: Amistar Top 325 SC (Azoksistrobin + Difenokonazol) (Azoksistrobin 200 g/L + Difenokonazol 125 g/L, dosis 0,5–1 ml/liter air; 0,5–1 L produk/ha) — cara: Semprot merata seluruh permukaan daun, terutama daun di atas tongkol; gunakan nosel datar; waktu: Fase vegetatif akhir V10 hingga VT (kemunculan malai); ulangi jika penyakit masih berkembang setelah 14 hari; Anvil 50 SC (Heksakonazol) (Heksakonazol 50 g/L, dosis 1–1,5 ml/liter air) — cara: Semprot merata ke seluruh tajuk tanaman; waktu: Saat lesi pertama terdeteksi pada daun-daun bawah, sebelum menyebar ke daun tongkol."
+  },
+  {
+    "kelas": "corn_cercospora",
+    "tipe": "pencegahan",
+    "pertanyaan": "Bagaimana cara mencegah serangan Gray Leaf Spot Jagung (Cercospora)?",
+    "acuan": "Pencegahan Gray Leaf Spot Jagung (Cercospora) meliputi: Gunakan varietas hibrida jagung yang memiliki rating ketahanan GLS tinggi (skala 1–9; pilih ≥6). Lakukan rotasi tanaman minimal satu musim dengan tanaman non-serealia (kedelai, kacang tanah). Bajak tanah untuk membenamkan sisa tanaman terinfeksi sedalam >10 cm guna mempercepat dekomposisi. Atur jarak tanam ideal (75×20 cm atau 75×25 cm) agar sirkulasi udara baik dan daun cepat kering. Hindari penanaman jagung monokultur terus-menerus."
+  },
+  {
+    "kelas": "corn_cercospora",
+    "tipe": "perawatan",
+    "pertanyaan": "Perawatan apa yang perlu dilakukan pada tanaman untuk mendukung pemulihan dan ketahanan terhadap Gray Leaf Spot Jagung (Cercospora)?",
+    "acuan": "Perawatan untuk tanaman yang terserang atau rentan Gray Leaf Spot Jagung (Cercospora) meliputi: Optimalisasi pemupukan Kalium (KCl) karena Kalium memperkuat dinding sel terhadap penetrasi jamur. Pemantauan intensif mulai fase V8 — periksa daun-daun bawah setiap 5–7 hari. Jika ≥50% tanaman menunjukkan lesi di daun ketiga di bawah daun tongkol sebelum malai keluar, segera fungisida. Hindari pemupukan Nitrogen berlebih — tanaman yang terlalu subur lebih rentan. Dokumentasi tingkat keparahan tiap lahan untuk panduan musim berikutnya."
+  },
+  {
+    "kelas": "corn_common_rust",
+    "tipe": "penyebab",
+    "pertanyaan": "Apa penyebab Karat Daun Jagung (Common Rust) dan dalam kondisi apa penyakit ini berkembang?",
+    "acuan": "Karat Daun Jagung (Common Rust) disebabkan oleh Jamur Basidiomycete (karat/rust) Puccinia sorghi. Uredospora terbawa angin jarak jauh dari wilayah penghasil karat; tidak bertahan di tanah. Penyakit ini berkembang pesat pada kondisi: Suhu sejuk 16–23°C dengan embun yang sering; Kelembapan tinggi dan langit berawan; Tanaman yang ditanam saat suhu malam rendah."
+  },
+  {
+    "kelas": "corn_common_rust",
+    "tipe": "gejala",
+    "pertanyaan": "Apa saja gejala yang muncul pada tanaman yang terserang Karat Daun Jagung (Common Rust)?",
+    "acuan": "Gejala Karat Daun Jagung (Common Rust) meliputi: Pustula kecil berbentuk oval-memanjang, cokelat kemerahan hingga oranye, tersebar di kedua permukaan daun; Spora berbentuk bubuk cokelat kemerahan (uredospora) keluar dari pustula saat disentuh; Daun menguning di sekitar pustula (klorosis) dan dapat mengering; Pada infeksi lanjut, pustula berubah warna menjadi hitam (teliospores); Daun di sekitar tongkol paling rentan; infeksi berat menyebabkan penurunan hasil."
+  },
+  {
+    "kelas": "corn_common_rust",
+    "tipe": "penanganan",
+    "pertanyaan": "Bagaimana cara menangani Karat Daun Jagung (Common Rust) yang sudah terinfeksi?",
+    "acuan": "Penanganan Karat Daun Jagung (Common Rust) dapat dilakukan dengan: Anvil 50 SC (Heksakonazol) (Heksakonazol 50 g/L, dosis 1–1,5 ml/liter air) — cara: Semprot merata seluruh kanopi termasuk bagian bawah daun; waktu: Saat bintik karat pertama muncul; ulangi setiap 14 hari bila kondisi menguntungkan penyakit; Nativo 75 WG (Tebukonazol + Trifloksistrobin) (Tebukonazol 50% + Trifloksistrobin 25%, dosis 0,5 g/liter air) — cara: Semprot merata tajuk; aplikasi pagi hari untuk efektivitas optimal; waktu: Fase vegetatif menjelang berbunga bila tekanan penyakit tinggi."
+  },
+  {
+    "kelas": "corn_common_rust",
+    "tipe": "pencegahan",
+    "pertanyaan": "Bagaimana cara mencegah serangan Karat Daun Jagung (Common Rust)?",
+    "acuan": "Pencegahan Karat Daun Jagung (Common Rust) meliputi: Gunakan benih hibrida jagung yang memiliki ketahanan tinggi terhadap karat (Puccinia sorghi). Tanam serempak dalam satu kawasan untuk mempersingkat periode rentan. Hindari jadwal tanam saat suhu malam diperkirakan sejuk (<20°C) yang mendukung infeksi. Sanitasi gulma rumput (Oxalis spp., inang alternasif) di sekitar lahan. Jaga keseimbangan pupuk Nitrogen — tanaman terlalu subur lebih rentan."
+  },
+  {
+    "kelas": "corn_common_rust",
+    "tipe": "perawatan",
+    "pertanyaan": "Perawatan apa yang perlu dilakukan pada tanaman untuk mendukung pemulihan dan ketahanan terhadap Karat Daun Jagung (Common Rust)?",
+    "acuan": "Perawatan untuk tanaman yang terserang atau rentan Karat Daun Jagung (Common Rust) meliputi: Hindari pemupukan Urea (Nitrogen) berlebih yang membuat daun lebih lunak dan rentan. Aplikasikan Silika cair (Si) untuk mengeraskan dinding sel daun dan meningkatkan ketahanan. Bila karat mencapai daun di sekitar tongkol sebelum fase pengisian biji, segera kendalikan secara kimia. Monitoring mingguan dimulai dari fase V6 di wilayah endemik karat. Rotasi tanaman membantu mengurangi tekanan penyakit musim berikutnya."
+  },
+  {
+    "kelas": "corn_northern_leaf_blight",
+    "tipe": "penyebab",
+    "pertanyaan": "Apa penyebab Hawar Daun Utara Jagung (Northern Corn Leaf Blight) dan dalam kondisi apa penyakit ini berkembang?",
+    "acuan": "Hawar Daun Utara Jagung (Northern Corn Leaf Blight) disebabkan oleh Jamur Deuteromycete Exserohilum turcicum. Konidia dari sisa tanaman terinfeksi yang bertahan di permukaan tanah. Penyakit ini berkembang pesat pada kondisi: Suhu moderat 18–27°C dengan kelembapan tinggi; Embun pagi yang sering dan cuaca berawan berkepanjangan; No-till atau sisa tanaman tidak dibenamkan."
+  },
+  {
+    "kelas": "corn_northern_leaf_blight",
+    "tipe": "gejala",
+    "pertanyaan": "Apa saja gejala yang muncul pada tanaman yang terserang Hawar Daun Utara Jagung (Northern Corn Leaf Blight)?",
+    "acuan": "Gejala Hawar Daun Utara Jagung (Northern Corn Leaf Blight) meliputi: Lesi lebar berbentuk 'cerutu' atau elips memanjang (7–15 cm), berwarna abu-abu kecokelatan; Tepi lesi tidak berbatas urat daun (berbeda dengan GLS), tampak seperti daun terbakar; Pada kondisi lembap, permukaan lesi tampak kehijauan gelap akibat sporulasi (konidia); Lesi bermula di daun bawah dan menyebar cepat ke atas saat kondisi mendukung; Infeksi berat sebelum fase pengisian biji menyebabkan penurunan hasil 30–50%."
+  },
+  {
+    "kelas": "corn_northern_leaf_blight",
+    "tipe": "penanganan",
+    "pertanyaan": "Bagaimana cara menangani Hawar Daun Utara Jagung (Northern Corn Leaf Blight) yang sudah terinfeksi?",
+    "acuan": "Penanganan Hawar Daun Utara Jagung (Northern Corn Leaf Blight) dapat dilakukan dengan: Nativo 75 WG (Tebukonazol + Trifloksistrobin) (Tebukonazol 50% + Trifloksistrobin 25%, dosis 0,5–1 g/liter air) — cara: Semprot merata tajuk tanaman; gunakan nosel datar untuk jangkauan kanopi optimal; waktu: Saat gejala awal muncul (deteksi lesi pertama) atau pada fase berbunga (VT/R1); Amistar Top 325 SC (Azoksistrobin + Difenokonazol) (Azoksistrobin 200 g/L + Difenokonazol 125 g/L, dosis 0,5–1 ml/liter air) — cara: Aplikasi pada seluruh kanopi; fokus daun di atas tongkol; waktu: Fase V8 hingga VT; tidak efektif jika diaplikasikan setelah 50% daun hawar."
+  },
+  {
+    "kelas": "corn_northern_leaf_blight",
+    "tipe": "pencegahan",
+    "pertanyaan": "Bagaimana cara mencegah serangan Hawar Daun Utara Jagung (Northern Corn Leaf Blight)?",
+    "acuan": "Pencegahan Hawar Daun Utara Jagung (Northern Corn Leaf Blight) meliputi: Tanam varietas toleran NCLB (Northern Corn Leaf Blight) dengan gen ketahanan Ht. Bajak dan benamkan sisa panen sedalam 15–20 cm untuk mempercepat dekomposisi inokulum. Lakukan rotasi tanaman dengan kedelai atau kacang-kacangan minimal satu musim. Seed treatment (perlakuan benih) dengan fungisida sebelum tanam untuk proteksi awal. Hindari jadwal tanam saat periode embun pagi tinggi diperkirakan berlarut."
+  },
+  {
+    "kelas": "corn_northern_leaf_blight",
+    "tipe": "perawatan",
+    "pertanyaan": "Perawatan apa yang perlu dilakukan pada tanaman untuk mendukung pemulihan dan ketahanan terhadap Hawar Daun Utara Jagung (Northern Corn Leaf Blight)?",
+    "acuan": "Perawatan untuk tanaman yang terserang atau rentan Hawar Daun Utara Jagung (Northern Corn Leaf Blight) meliputi: Berikan pupuk daun mengandung Boron (B) dan Seng (Zn) untuk memperkuat ketahanan tanaman. Monitor lahan secara intensif pasca hujan angin yang dapat menyebarkan konidia. Pemupukan NPK sesuai dosis rekomendasi; Nitrogen berlebih memperparah kerentanan. Jika terdapat ≥30% lesi sebelum fase pengisian biji, pertimbangkan fungisida segera. Dokumentasikan keparahan per lahan sebagai referensi varietas dan manajemen musim depan."
+  },
+  {
+    "kelas": "grape_black_rot",
+    "tipe": "penyebab",
+    "pertanyaan": "Apa penyebab Busuk Hitam Anggur (Grape Black Rot) dan dalam kondisi apa penyakit ini berkembang?",
+    "acuan": "Busuk Hitam Anggur (Grape Black Rot) disebabkan oleh Jamur Ascomycete Guignardia bidwellii. Spora dari mumi buah (di tandan atau tanah) yang bertahan dari musim sebelumnya. Penyakit ini berkembang pesat pada kondisi: Suhu 21–27°C dengan hujan atau kelembapan tinggi; Periode basah daun ≥6 jam selama suhu > 16°C; Buah muda sangat rentan: 0–3 minggu setelah pembungaan."
+  },
+  {
+    "kelas": "grape_black_rot",
+    "tipe": "gejala",
+    "pertanyaan": "Apa saja gejala yang muncul pada tanaman yang terserang Busuk Hitam Anggur (Grape Black Rot)?",
+    "acuan": "Gejala Busuk Hitam Anggur (Grape Black Rot) meliputi: Buah muda menunjukkan bercak cokelat kecil yang cepat membesar dan menghitam; Buah membusuk total, mengkerut, dan mengering menjadi mumi hitam keras yang menempel di tandan; Bintik hitam kecil (piknida jamur) tampak di permukaan lesi buah; Daun menunjukkan bercak melingkar cokelat-tan dengan tepi cokelat gelap, berisi piknida hitam di tengah; Pucuk muda dan tangkai daun dapat terinfeksi membentuk lesi memanjang."
+  },
+  {
+    "kelas": "grape_black_rot",
+    "tipe": "penanganan",
+    "pertanyaan": "Bagaimana cara menangani Busuk Hitam Anggur (Grape Black Rot) yang sudah terinfeksi?",
+    "acuan": "Penanganan Busuk Hitam Anggur (Grape Black Rot) dapat dilakukan dengan: Amistar Top 325 SC (Azoksistrobin + Difenokonazol) (Azoksistrobin 200 g/L + Difenokonazol 125 g/L, dosis 0,5–1 ml/liter air) — cara: Semprot merata seluruh kanopi: daun, tandan buah, pucuk; semprot hingga runoff; waktu: Mulai tunas tumbuh 5–10 cm (bud break) hingga 3–4 minggu setelah mekar; interval 7–10 hari saat cuaca basah; Abound / Quadris (Azoksistrobin) (Azoksistrobin 250 g/L, dosis 0,4–0,8 ml/liter air; ikuti label produk) — cara: Semprot merata; hindari semprot saat hujan; waktu: Fase bud break hingga berry set; interval 10–14 hari; Nordox 56 WP (Tembaga Oksida) (Tembaga Oksida 56%, dosis 1,5–2 g/liter air) — cara: Semprot preventif sebelum hujan; tambahkan perekat; waktu: Dorman hingga bud break untuk mengurangi inokulum awal musim."
+  },
+  {
+    "kelas": "grape_black_rot",
+    "tipe": "pencegahan",
+    "pertanyaan": "Bagaimana cara mencegah serangan Busuk Hitam Anggur (Grape Black Rot)?",
+    "acuan": "Pencegahan Busuk Hitam Anggur (Grape Black Rot) meliputi: Bakar dan musnahkan semua mumi buah yang tertinggal di tandan atau jatuh ke tanah setelah panen. Gunakan sistem trellis tinggi agar tandan buah jauh dari permukaan tanah dan sumber inokulum. Atur barisan tanaman searah angin dominan untuk mempercepat pengeringan kanopi. Sanitasi lahan total (penjarangan daun, pemangkasan ranting kering) selama periode dorman. Jangan biarkan gulma tinggi di bawah tandan yang meningkatkan kelembapan mikro."
+  },
+  {
+    "kelas": "grape_black_rot",
+    "tipe": "perawatan",
+    "pertanyaan": "Perawatan apa yang perlu dilakukan pada tanaman untuk mendukung pemulihan dan ketahanan terhadap Busuk Hitam Anggur (Grape Black Rot)?",
+    "acuan": "Perawatan untuk tanaman yang terserang atau rentan Busuk Hitam Anggur (Grape Black Rot) meliputi: Penjarangan daun di sekitar tandan buah untuk meningkatkan penetrasi fungisida dan aliran udara. Gunakan irigasi tetes, bukan irigasi semprot dari atas, untuk mengurangi basahnya daun dan buah. Pupuk Kalium (K) tinggi saat fase pematangan buah (veraison) untuk menguatkan kulit buah. Pantau cuaca online: jika >6 jam basah daun pada suhu >18°C diprediksi, segera jadwalkan semprot. Catat posisi dan jumlah mumi tiap musim sebagai indikator tekanan penyakit musim depan."
+  },
+  {
+    "kelas": "grape_esca_black_measles",
+    "tipe": "penyebab",
+    "pertanyaan": "Apa penyebab Esca / Black Measles Anggur dan dalam kondisi apa penyakit ini berkembang?",
+    "acuan": "Esca / Black Measles Anggur disebabkan oleh Jamur Ascomycete (patogen kayu/trunk disease) Phaeomoniella chlamydospora dan Phaeoacremonium minimum (kompleks fungi kayu). Infeksi pada luka pangkasan yang terbuka, terutama saat kondisi basah di musim gugur-semi. Penyakit ini berkembang pesat pada kondisi: Pohon anggur berumur > 5 tahun dengan banyak bekas pangkasan; Luka pangkasan dibiarkan terbuka di cuaca basah; Tidak ada perlindungan luka (wound sealing) pasca pangkas."
+  },
+  {
+    "kelas": "grape_esca_black_measles",
+    "tipe": "gejala",
+    "pertanyaan": "Apa saja gejala yang muncul pada tanaman yang terserang Esca / Black Measles Anggur?",
+    "acuan": "Gejala Esca / Black Measles Anggur meliputi: Daun menunjukkan pola 'garis harimau' (tiger stripe): bercak klorosis kuning-merah antar urat daun; Bintik hitam kecil tersebar pada permukaan buah (black measles), buah tidak layak jual; Kematian mendadak seluruh kanopi dalam satu musim (apoplexy / grapevine apoplexy); Kayu bagian dalam berwarna gelap atau memiliki sektor nekrotik saat batang dipotong; Perlemahan progresif dari tahun ke tahun; tanaman tua (>5 tahun) paling terpengaruh."
+  },
+  {
+    "kelas": "grape_esca_black_measles",
+    "tipe": "penanganan",
+    "pertanyaan": "Bagaimana cara menangani Esca / Black Measles Anggur yang sudah terinfeksi?",
+    "acuan": "Penanganan Esca / Black Measles Anggur dapat dilakukan dengan: Topsin M 70 WP (Metil Tiofanat) (Metil Tiofanat 70%, dosis Buat pasta kental: campurkan dengan air secukupnya) — cara: Oleskan tebal pada setiap luka pangkasan diameter > 1 cm; pastikan seluruh permukaan luka tertutup; waktu: Segera (dalam 30 menit) setelah pemangkasan selesai; Tidak ada produk kimia; prosedur bedah kayu (N/A, dosis N/A) — cara: Potong bagian kayu terinfeksi (berwarna gelap) hingga jaringan putih sehat; oleskan Topsin pasta pada bekas potongan; waktu: Saat dorman; hanya pada pohon yang masih memiliki bagian sehat."
+  },
+  {
+    "kelas": "grape_esca_black_measles",
+    "tipe": "pencegahan",
+    "pertanyaan": "Bagaimana cara mencegah serangan Esca / Black Measles Anggur?",
+    "acuan": "Pencegahan Esca / Black Measles Anggur meliputi: Gunakan bibit berlabel bebas patogen kayu (Phaeomoniella, Phaeoacremonium) dari pembibitan bersertifikat. Pangkas hanya saat cuaca kering dan terik — hindari pemangkasan saat hujan atau embun berat. Terapkan teknik double pruning (pangkas kasar di musim gugur, finalisasi di akhir musim dorman) untuk meminimalkan luka besar. Oleskan wound sealant (pasta Topsin atau cat akrilik + asam borat 5%) pada SEMUA luka pangkasan. Bakar atau kubur dalam pohon anggur yang sudah terinfeksi batang utamanya — jangan biarkan di lahan."
+  },
+  {
+    "kelas": "grape_esca_black_measles",
+    "tipe": "perawatan",
+    "pertanyaan": "Perawatan apa yang perlu dilakukan pada tanaman untuk mendukung pemulihan dan ketahanan terhadap Esca / Black Measles Anggur?",
+    "acuan": "Perawatan untuk tanaman yang terserang atau rentan Esca / Black Measles Anggur meliputi: Sterilkan gunting pangkas dan gergaji dengan alkohol 70% atau larutan pemutih 10% antara setiap pohon. Tutup semua luka pangkasan, termasuk yang berukuran kecil, tanpa terkecuali. Berikan pupuk organik (kompos) untuk meningkatkan vitalitas tanaman tua dan daya tahan terhadap penyakit. Kurangi beban produksi pada pohon yang menunjukkan gejala esca untuk memperpanjang umur produktif. Monitor warna daun tiap minggu di musim tanam — gejala tiger stripe awal sering terlewat."
+  },
+  {
+    "kelas": "grape_leaf_blight_isariopsis_leaf_spot",
+    "tipe": "penyebab",
+    "pertanyaan": "Apa penyebab Hawar Daun Anggur (Isariopsis / Pseudocercospora) dan dalam kondisi apa penyakit ini berkembang?",
+    "acuan": "Hawar Daun Anggur (Isariopsis / Pseudocercospora) disebabkan oleh Jamur Deuteromycete Pseudocercospora vitis. Spora dari sisa daun terinfeksi di tanah atau kanopi yang lembap. Penyakit ini berkembang pesat pada kondisi: Kelembapan udara tinggi (>85%) dengan kanopi yang terlalu rimbun; Cuaca hangat dan lembap di akhir musim tanam; Kebun dengan drainase buruk dan gulma lebat."
+  },
+  {
+    "kelas": "grape_leaf_blight_isariopsis_leaf_spot",
+    "tipe": "gejala",
+    "pertanyaan": "Apa saja gejala yang muncul pada tanaman yang terserang Hawar Daun Anggur (Isariopsis / Pseudocercospora)?",
+    "acuan": "Gejala Hawar Daun Anggur (Isariopsis / Pseudocercospora) meliputi: Bercak tidak beraturan cokelat gelap pada daun tua, sering dimulai dari tepi atau ujung daun; Bercak dapat bergabung dan menyebabkan daun mengering dan gugur prematur; Sisi bawah daun pada kondisi lembap menunjukkan sporulasi (bulu-bulu halus jamur); Penurunan kadar gula buah akibat berkurangnya luas daun fotosintetik; Umumnya muncul lebih lambat dalam musim tanam dibanding penyakit anggur lainnya."
+  },
+  {
+    "kelas": "grape_leaf_blight_isariopsis_leaf_spot",
+    "tipe": "penanganan",
+    "pertanyaan": "Bagaimana cara menangani Hawar Daun Anggur (Isariopsis / Pseudocercospora) yang sudah terinfeksi?",
+    "acuan": "Penanganan Hawar Daun Anggur (Isariopsis / Pseudocercospora) dapat dilakukan dengan: Nordox 56 WP (Tembaga Oksida) (Tembaga Oksida 56%, dosis 1–2 g/liter air) — cara: Semprot seluruh permukaan daun (atas dan bawah) hingga merata; tambahkan perekat; waktu: Saat gejala awal muncul; ulangi setiap 10–14 hari; Score 250 EC (Difenokonazol) (Difenokonazol 250 g/L, dosis 0,25–0,5 ml/liter air) — cara: Semprot merata ke seluruh kanopi; fokus pada daun tua yang pertama bergejala; waktu: Saat muncul gejala awal di daun tua atau kondisi lembap berkepanjangan."
+  },
+  {
+    "kelas": "grape_leaf_blight_isariopsis_leaf_spot",
+    "tipe": "pencegahan",
+    "pertanyaan": "Bagaimana cara mencegah serangan Hawar Daun Anggur (Isariopsis / Pseudocercospora)?",
+    "acuan": "Pencegahan Hawar Daun Anggur (Isariopsis / Pseudocercospora) meliputi: Bersihkan serasah daun dan sisa tanaman pasca panen untuk mengurangi inokulum. Lakukan penjarangan kanopi secara rutin untuk mengurangi kelembapan mikro. Kendalikan gulma di area perakaran dan di bawah kanopi. Pastikan sistem drainase lahan berjalan baik; hindari genangan. Atur jarak tanam dan trellis untuk memaksimalkan penetrasi sinar matahari dan aliran udara."
+  },
+  {
+    "kelas": "grape_leaf_blight_isariopsis_leaf_spot",
+    "tipe": "perawatan",
+    "pertanyaan": "Perawatan apa yang perlu dilakukan pada tanaman untuk mendukung pemulihan dan ketahanan terhadap Hawar Daun Anggur (Isariopsis / Pseudocercospora)?",
+    "acuan": "Perawatan untuk tanaman yang terserang atau rentan Hawar Daun Anggur (Isariopsis / Pseudocercospora) meliputi: Berikan pupuk Kalium (K) cukup untuk memperkuat jaringan daun dan meningkatkan toleransi penyakit. Lakukan monitoring daun tua di bagian bawah kanopi setiap 7–10 hari. Hindari pemupukan Nitrogen berlebih yang menghasilkan daun rimbun dan lunak. Aplikasikan mulsa di bawah tanaman untuk mengurangi percikan spora tanah. Di akhir musim, pangkas dan bakar semua daun bergejala."
+  },
+  {
+    "kelas": "tomato_bacterial_spot",
+    "tipe": "penyebab",
+    "pertanyaan": "Apa penyebab Bercak Bakteri Tomat dan dalam kondisi apa penyakit ini berkembang?",
+    "acuan": "Bercak Bakteri Tomat disebabkan oleh Bakteri Gram-negatif Xanthomonas perforans / Xanthomonas euvesicatoria. Benih terinfeksi atau sisa tanaman; menyebar melalui percikan air hujan dan irigasi overhead. Penyakit ini berkembang pesat pada kondisi: Suhu tinggi 25–30°C dengan kelembapan tinggi; Irigasi semprot dari atas yang menyebabkan percikan air; Luka pada daun atau buah (serangga, angin, hujan lebat)."
+  },
+  {
+    "kelas": "tomato_bacterial_spot",
+    "tipe": "gejala",
+    "pertanyaan": "Apa saja gejala yang muncul pada tanaman yang terserang Bercak Bakteri Tomat?",
+    "acuan": "Gejala Bercak Bakteri Tomat meliputi: Bercak hitam kecil basah (water-soaked) diameter 1–3 mm, dikelilingi halo kuning di daun; Bercak tua menjadi cokelat gelap, kering, dan bisa berlubang (shot-hole); Keropeng atau bintil kasar menonjol pada permukaan buah muda; Gugur daun masif pada infeksi parah, membuat tanaman gundul; Buah bergejala keropeng tidak layak jual meski masih bisa dimakan."
+  },
+  {
+    "kelas": "tomato_bacterial_spot",
+    "tipe": "penanganan",
+    "pertanyaan": "Bagaimana cara menangani Bercak Bakteri Tomat yang sudah terinfeksi?",
+    "acuan": "Penanganan Bercak Bakteri Tomat dapat dilakukan dengan: Kocide 77 WD (Tembaga Hidroksida) (Tembaga Hidroksida 77%, dosis 1,5–2 g/liter air) — cara: Semprot merata seluruh bagian tanaman; pastikan merata di permukaan bawah dan atas daun; waktu: Mulai 2 minggu setelah tanam; ulangi setiap 5–7 hari saat cuaca basah dan panas; Agrimycin / Streptomycin Sulfat (jika tersedia) (Streptomisin Sulfat, dosis Ikuti label produk (biasanya 100–200 ppm)) — cara: Semprot merata; jangan dicampur dengan tembaga dalam satu tangki (inkompatibel); waktu: Alternatif rotasi dengan tembaga; hindari penggunaan berulang untuk cegah resistensi bakteri."
+  },
+  {
+    "kelas": "tomato_bacterial_spot",
+    "tipe": "pencegahan",
+    "pertanyaan": "Bagaimana cara mencegah serangan Bercak Bakteri Tomat?",
+    "acuan": "Pencegahan Bercak Bakteri Tomat meliputi: Gunakan benih bersertifikat bebas bakteri atau lakukan perlakuan benih dengan air panas (50°C, 25 menit). Hindari irigasi semprot dari atas; gunakan irigasi tetes untuk menjaga daun tetap kering. Bersihkan gulma inang (ranti/terong liar, Solanum spp.) di sekitar lahan. Lakukan rotasi lahan minimal 2 musim dengan tanaman non-solanaceae (padi, jagung). Jangan bekerja di lahan saat daun basah — bakteri menyebar mudah melalui kontak tangan dan alat."
+  },
+  {
+    "kelas": "tomato_bacterial_spot",
+    "tipe": "perawatan",
+    "pertanyaan": "Perawatan apa yang perlu dilakukan pada tanaman untuk mendukung pemulihan dan ketahanan terhadap Bercak Bakteri Tomat?",
+    "acuan": "Perawatan untuk tanaman yang terserang atau rentan Bercak Bakteri Tomat meliputi: Pangkas daun bergejala hanya saat cuaca kering dan terik; sterilkan gunting sesudahnya. Sterilkan semua alat kerja (gunting, tiang penyangga) setelah menangani tanaman bergejala. Aplikasikan Dolomit (kapur pertanian) untuk menstabilkan pH tanah 6,2–6,8 yang kurang mendukung Xanthomonas. Hindari pemupukan Nitrogen berlebih yang menghasilkan jaringan lunak rentan bakteri. Cabut dan buang (bakar) tanaman yang terinfeksi sangat parah untuk mencegah sumber inokulum."
+  },
+  {
+    "kelas": "tomato_early_blight",
+    "tipe": "penyebab",
+    "pertanyaan": "Apa penyebab Bercak Kering Tomat (Early Blight) dan dalam kondisi apa penyakit ini berkembang?",
+    "acuan": "Bercak Kering Tomat (Early Blight) disebabkan oleh Jamur Deuteromycete Alternaria solani / Alternaria linariae. Konidia dari sisa tanaman di tanah; spora tersebar via angin dan percikan hujan. Penyakit ini berkembang pesat pada kondisi: Kelembapan udara tinggi (>85%) dengan suhu 24–29°C; Tanaman stres: kekurangan Nitrogen, Kalsium, atau Magnesium; Tanah tidak diberi mulsa sehingga spora terpercik ke daun."
+  },
+  {
+    "kelas": "tomato_early_blight",
+    "tipe": "gejala",
+    "pertanyaan": "Apa saja gejala yang muncul pada tanaman yang terserang Bercak Kering Tomat (Early Blight)?",
+    "acuan": "Gejala Bercak Kering Tomat (Early Blight) meliputi: Bercak cokelat tua berbentuk 'cincin konsentris' menyerupai target/sasaran panah (target spot) pada daun tua; Bercak dikelilingi halo kuning; daun menguning dan gugur dimulai dari bawah; Batang menunjukkan bercak cokelat hitam memanjang, terutama di pangkal; Busuk pada pangkal tangkai buah (stem-end rot); bercak cekung pada buah; Defoliasi progresif dari bawah ke atas membuat tanaman gundul dan lemah."
+  },
+  {
+    "kelas": "tomato_early_blight",
+    "tipe": "penanganan",
+    "pertanyaan": "Bagaimana cara menangani Bercak Kering Tomat (Early Blight) yang sudah terinfeksi?",
+    "acuan": "Penanganan Bercak Kering Tomat (Early Blight) dapat dilakukan dengan: Antracol 70 WP (Propineb) (Propineb 70%, dosis 2 g/liter air) — cara: Semprot merata atas dan bawah daun hingga runoff; mulai dari daun bawah; waktu: Preventif: mulai 7–14 hari setelah tanam; ulangi setiap 7 hari; Score 250 EC (Difenokonazol) (Difenokonazol 250 g/L, dosis 0,25–0,5 ml/liter air) — cara: Semprot merata; fokus pada daun tua dan daun tengah yang mulai bergejala; waktu: Saat gejala pertama muncul; ulangi setiap 10–14 hari; Nativo 75 WG (Tebukonazol + Trifloksistrobin) (Tebukonazol 50% + Trifloksistrobin 25%, dosis 0,5 g/liter air) — cara: Semprot merata; tambahkan perekat untuk adhesi lebih baik di cuaca hujan; waktu: Saat infeksi aktif atau tekanan penyakit tinggi; interval 14 hari."
+  },
+  {
+    "kelas": "tomato_early_blight",
+    "tipe": "pencegahan",
+    "pertanyaan": "Bagaimana cara mencegah serangan Bercak Kering Tomat (Early Blight)?",
+    "acuan": "Pencegahan Bercak Kering Tomat (Early Blight) meliputi: Pasang mulsa plastik hitam perak untuk mencegah spora tanah terpercik ke daun bawah. Pangkas dan buang daun yang menyentuh tanah untuk mengurangi titik infeksi. Lakukan rotasi tanaman non-solanaceae (kacang, jagung) minimal 2–3 tahun. Hindari penanaman pada puncak musim hujan; pilih musim kemarau dengan irigasi terkontrol. Tanam varietas tomat yang lebih toleran early blight."
+  },
+  {
+    "kelas": "tomato_early_blight",
+    "tipe": "perawatan",
+    "pertanyaan": "Perawatan apa yang perlu dilakukan pada tanaman untuk mendukung pemulihan dan ketahanan terhadap Bercak Kering Tomat (Early Blight)?",
+    "acuan": "Perawatan untuk tanaman yang terserang atau rentan Bercak Kering Tomat (Early Blight) meliputi: Semprot Kalsium (Ca) secara rutin — tanaman cukup Kalsium lebih tahan terhadap Alternaria. Monitor daun tua (daun bawah) setiap pagi; deteksi dini memungkinkan respons lebih cepat. Pastikan nutrisi mikro (Zn, Mg, Mn) tercukupi untuk memperkuat sistem imun tanaman. Pangkas daun bergejala dan kumpulkan untuk dibakar, bukan dibuang sembarangan. Hindari menyiram daun secara langsung; arahkan air ke pangkal tanaman."
+  },
+  {
+    "kelas": "tomato_late_blight",
+    "tipe": "penyebab",
+    "pertanyaan": "Apa penyebab Busuk Daun Tomat (Late Blight) dan dalam kondisi apa penyakit ini berkembang?",
+    "acuan": "Busuk Daun Tomat (Late Blight) disebabkan oleh Oomycete (bukan jamur sejati — lebih dekat ke alga) Phytophthora infestans. Spora (sporangia) terbawa angin atau hujan dari tanaman terinfeksi; bertahan di umbi kentang. Penyakit ini berkembang pesat pada kondisi: Suhu sejuk 10–20°C dengan kelembapan sangat tinggi (>90%); Hujan awet atau kabut berkepanjangan; Tanaman tomat ditanam dekat kebun kentang yang terinfeksi."
+  },
+  {
+    "kelas": "tomato_late_blight",
+    "tipe": "gejala",
+    "pertanyaan": "Apa saja gejala yang muncul pada tanaman yang terserang Busuk Daun Tomat (Late Blight)?",
+    "acuan": "Gejala Busuk Daun Tomat (Late Blight) meliputi: Bercak hijau-abu gelap basah (water-soaked) yang meluas sangat cepat (2–3 hari) pada daun; Lapisan bulu-bulu putih kapas (sporangiophore) tampak di sisi bawah daun saat kondisi lembap; Daun dan batang menghitam, membusuk, dan berbau khas busuk (tidak ada pada early blight); Seluruh tanaman bisa kolaps (lonyot/mati) dalam 1 minggu pada cuaca mendukung; Buah menunjukkan bercak cokelat minyak yang membesar; buah akhirnya membusuk seluruhnya."
+  },
+  {
+    "kelas": "tomato_late_blight",
+    "tipe": "penanganan",
+    "pertanyaan": "Bagaimana cara menangani Busuk Daun Tomat (Late Blight) yang sudah terinfeksi?",
+    "acuan": "Penanganan Busuk Daun Tomat (Late Blight) dapat dilakukan dengan: Acrobat 50 WP (Dimetomorf) (Dimetomorf 50%, dosis 1–2 g/liter air) — cara: Semprot intensif seluruh bagian tanaman: daun (atas-bawah), batang, dan buah; gunakan perekat; waktu: SEGERA saat gejala pertama terdeteksi; ulangi setiap 5–7 hari saat hujan terus; Dithane M-45 (Mankozeb) (Mankozeb 80%, dosis 2–2,5 g/liter air) — cara: Semprot preventif sebelum hujan; tambahkan perekat (sticker); waktu: Aplikasi preventif saat prakiraan cuaca lembap atau hujan berkepanjangan; Revus Top (Mandipropamid + Difenokonazol) (Mandipropamid 250 g/L + Difenokonazol 250 g/L, dosis 0,5–0,75 ml/liter air) — cara: Semprot merata; efektif bahkan setelah hujan (tahan cuci); waktu: Preventif atau kuratif awal; interval 7–10 hari."
+  },
+  {
+    "kelas": "tomato_late_blight",
+    "tipe": "pencegahan",
+    "pertanyaan": "Bagaimana cara mencegah serangan Busuk Daun Tomat (Late Blight)?",
+    "acuan": "Pencegahan Busuk Daun Tomat (Late Blight) meliputi: Jangan tanam tomat dekat kebun kentang — keduanya rentan terhadap P. infestans yang sama. Pastikan sistem drainase lahan sangat baik; genangan air meningkatkan kelembapan mikro. Tanam varietas tomat yang memiliki toleransi terhadap Phytophthora (misal: Mountain Magic, Defiant). Perlebar jarak tanam di musim hujan untuk mempercepat pengeringan kanopi. Pantau prakiraan cuaca dan lakukan semprot preventif Mankozeb sebelum cuaca buruk datang."
+  },
+  {
+    "kelas": "tomato_late_blight",
+    "tipe": "perawatan",
+    "pertanyaan": "Perawatan apa yang perlu dilakukan pada tanaman untuk mendukung pemulihan dan ketahanan terhadap Busuk Daun Tomat (Late Blight)?",
+    "acuan": "Perawatan untuk tanaman yang terserang atau rentan Busuk Daun Tomat (Late Blight) meliputi: Cabut dan buang (bakar) tanaman yang terinfeksi sangat parah — jangan kompos. Gunakan perekat (sticker/spreader) dalam larutan semprot agar fungisida tidak mudah tercuci hujan. Aplikasikan Mankozeb preventif setiap 5–7 hari menjelang musim hujan ekstrem. Hindari bekerja di lahan saat tanaman basah — P. infestans menyebar mudah melalui kontak. Musnahkan sisa tanaman tomat dan kentang di akhir musim; jangan biarkan di lahan."
+  }
+]

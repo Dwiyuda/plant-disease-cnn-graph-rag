@@ -1,0 +1,771 @@
+{
+  "meta": {
+    "versi": "2.0",
+    "deskripsi": "Master Knowledge Base Penyakit Tanaman — 12 kelas CNN",
+    "tanaman_tercakup": ["Apel", "Anggur", "Jagung", "Tomat"],
+    "jumlah_penyakit": 12,
+    "neo4j_id_prefix": ["apple_", "grape_", "corn_", "tomato_"]
+  },
+  "penyakit_tanaman": [
+
+    {
+      "id": "apple_scab",
+      "nama_tampil": "Kudis Apel (Apple Scab)",
+      "nama_ilmiah": "Venturia inaequalis",
+      "tanaman": "Apel",
+      "tingkat_keparahan": "Tinggi",
+      "gejala": [
+        "Bercak hijau-zaitun beludru pada permukaan bawah daun muda",
+        "Bercak cokelat gelap berbatas tegas pada daun yang lebih tua",
+        "Buah menunjukkan bercak kasar berwarna zaitun-cokelat, bisa retak dan cacat",
+        "Gugur daun prematur hingga menggundulkan pohon di musim panas",
+        "Ranting muda dapat terinfeksi dan menunjukkan bercak kabur keunguan"
+      ],
+      "patogen": {
+        "nama": "Venturia inaequalis",
+        "tipe": "Jamur Ascomycete",
+        "penyebab_utama": "Spora (askospora) dari daun gugur terinfeksi yang melewati musim dingin di tanah",
+        "kondisi_pemicu": [
+          "Cuaca lembap dan sejuk di musim semi (suhu 10–24°C)",
+          "Permukaan daun basah lebih dari 9 jam berturut-turut",
+          "Curah hujan tinggi sejak pembengkakan tunas hingga akhir pembungaan"
+        ]
+      },
+      "penanganan": [
+        {
+          "tipe": "Kimia — Fungisida Sistemik",
+          "produk": "Score 250 EC (Difenokonazol)",
+          "bahan_aktif": "Difenokonazol 250 g/L",
+          "dosis": "0,25–0,5 ml/liter air",
+          "cara": "Semprot merata seluruh permukaan daun dan buah muda, termasuk bagian bawah daun",
+          "waktu": "Mulai fase pecah tunas (green tip) hingga setelah kelopak bunga jatuh; ulangi setiap 7–10 hari saat cuaca basah",
+          "catatan": "Fungisida sistemik kuratif dan preventif; efektif 72 jam pasca infeksi. Rotasi dengan bahan aktif berbeda untuk cegah resistensi."
+        },
+        {
+          "tipe": "Kimia — Fungisida Sistemik Kombinasi",
+          "produk": "Nativo 75 WG (Tebukonazol + Trifloksistrobin)",
+          "bahan_aktif": "Tebukonazol 50% + Trifloksistrobin 25%",
+          "dosis": "0,3–0,5 g/liter air",
+          "cara": "Semprot merata saat tunas mulai membuka; tambahkan perekat (sticker) untuk adhesi lebih baik",
+          "waktu": "Fase tunas hijau hingga pembentukan buah; interval 10–14 hari",
+          "catatan": "Kombinasi dua mode aksi mengurangi risiko resistensi; tahan cuci hujan lebih baik."
+        },
+        {
+          "tipe": "Organik — Fungisida Kontak",
+          "produk": "Fungisida Tembaga (Copper Hydroxide / Bordeaux Mixture)",
+          "bahan_aktif": "Tembaga Hidroksida atau Tembaga Sulfat + Kapur",
+          "dosis": "2–3 g/liter air (copper hydroxide); ikuti label produk",
+          "cara": "Semprot sebelum hujan untuk perlindungan preventif",
+          "waktu": "Dorman hingga pembengkakan tunas; juga setelah panen untuk sanitasi",
+          "catatan": "Efektif sebagai protektan; tidak kuratif. Hati-hati fitotoksisitas pada konsentrasi tinggi."
+        }
+      ],
+      "pencegahan": [
+        "Tanam varietas apel tahan kudis (scab-resistant) seperti Liberty, Redfree, atau Enterprise.",
+        "Bersihkan dan musnahkan semua daun gugur di bawah pohon sebelum musim hujan; ini menghilangkan sumber spora utama.",
+        "Lakukan pemangkasan rutin untuk meningkatkan sirkulasi udara dan mempercepat pengeringan daun.",
+        "Atur jarak tanam cukup lebar agar kanopi tidak terlalu rapat.",
+        "Hindari irigasi semprot dari atas; gunakan irigasi tetes atau selang bawah kanopi.",
+        "Mulsa di bawah pohon untuk mencegah spora tanah terpercik ke daun."
+      ],
+      "perawatan": [
+        "Berikan pupuk Nitrogen pasca panen untuk mempercepat dekomposisi daun terinfeksi.",
+        "Pemupukan NPK seimbang + unsur mikro (Zn, B, Mn) untuk memperkuat sistem imun pohon.",
+        "Gunakan mulsa organik di pangkal pohon untuk menekan kelembapan dan spora tanah.",
+        "Monitor secara rutin sejak fase green tip; catat tingkat keparahan tiap minggu.",
+        "Cabut dan bakar ranting bergejala scab saat pemangkasan dorman."
+      ],
+      "chunk_rag": "Kudis Apel (Apple Scab) adalah penyakit jamur serius pada tanaman apel yang disebabkan oleh Venturia inaequalis. Gejala utama berupa bercak hijau-zaitun beludru pada permukaan bawah daun muda, kemudian berkembang menjadi bercak cokelat gelap, dan menyebabkan buah cacat serta gugur daun prematur — kerugian hasil bisa mencapai 70%. Penyakit berkembang pesat saat cuaca sejuk dan lembap (10–24°C) dengan daun basah lebih dari 9 jam. Jamur bertahan di daun gugur di tanah dan melepaskan spora saat musim semi. Penanganan kimia menggunakan Score 250 EC (Difenokonazol 250 g/L, dosis 0,25–0,5 ml/liter) atau Nativo 75 WG (Tebukonazol + Trifloksistrobin, dosis 0,3–0,5 g/liter) disemprotkan setiap 7–14 hari sejak fase green tip hingga setelah bunga jatuh. Untuk pendekatan organik, gunakan fungisida tembaga sebelum hujan. Pencegahan terbaik: tanam varietas tahan scab, bersihkan daun gugur sebelum musim hujan, pangkas untuk sirkulasi udara, dan hindari irigasi overhead. Perawatan meliputi pemupukan NPK seimbang, mulsa organik, dan monitoring mingguan."
+    },
+
+    {
+      "id": "apple_black_rot",
+      "nama_tampil": "Busuk Hitam Apel (Black Rot)",
+      "nama_ilmiah": "Botryosphaeria obtusa",
+      "tanaman": "Apel",
+      "tingkat_keparahan": "Tinggi",
+      "gejala": [
+        "Bercak 'mata katak' (frog-eye) pada daun: lingkaran cokelat dengan tepi ungu kemerahan",
+        "Buah membusuk mulai dari ujung mahkota atau luka, membentuk cincin konsentris hitam-cokelat",
+        "Buah busuk mengering menjadi 'mumi' keras berwarna hitam yang menempel di pohon",
+        "Kanker (canker) gelap memanjang pada ranting dan batang, mengelupas membentuk retakan",
+        "Ranting mati dan mengering dari ujung ke pangkal"
+      ],
+      "patogen": {
+        "nama": "Botryosphaeria obtusa",
+        "tipe": "Jamur Ascomycete",
+        "penyebab_utama": "Spora dari kayu mati, mumi buah, dan kanker batang yang bertahan sepanjang tahun",
+        "kondisi_pemicu": [
+          "Kelembapan tinggi dan suhu hangat (24–29°C)",
+          "Luka terbuka: bekas pangkasan, lubang serangga, atau kerusakan es",
+          "Pohon yang lemah akibat kekurangan nutrisi atau stres kekeringan"
+        ]
+      },
+      "penanganan": [
+        {
+          "tipe": "Kimia — Fungisida Kontak",
+          "produk": "Dithane M-45 (Mankozeb)",
+          "bahan_aktif": "Mankozeb 80% WP",
+          "dosis": "1,5–2 g/liter air",
+          "cara": "Semprot merata seluruh tajuk pohon, termasuk batang dan ranting",
+          "waktu": "Mulai pembengkakan tunas; ulangi setiap 7–10 hari selama cuaca lembap",
+          "catatan": "Fungisida pelindung kontak; tidak masuk ke jaringan tanaman. Harus diaplikasikan sebelum infeksi."
+        },
+        {
+          "tipe": "Kimia — Fungisida Sistemik",
+          "produk": "Topsin M 70 WP (Metil Tiofanat)",
+          "bahan_aktif": "Metil Tiofanat 70%",
+          "dosis": "1–1,5 g/liter air; untuk olesan luka: buat pasta kental",
+          "cara": "Semprot atau oleskan pasta pada bekas pangkasan dan kanker yang telah dibersihkan",
+          "waktu": "Segera setelah pemangkasan atau saat deteksi kanker awal",
+          "catatan": "Sangat efektif untuk melindungi luka pangkasan dari infeksi Botryosphaeria."
+        }
+      ],
+      "pencegahan": [
+        "Pangkas dan bakar semua ranting mati, kayu bergejala kanker, dan mumi buah.",
+        "Lakukan pemangkasan dorman hanya saat cuaca kering untuk meminimalkan waktu luka terbuka.",
+        "Oleskan pasta fungisida atau sealant luka pada setiap bekas potongan diameter > 1 cm.",
+        "Gunakan bibit berlabel bebas penyakit dari sumber terpercaya.",
+        "Hindari penumpukan kayu sisa pangkasan di dalam kebun.",
+        "Jaga nutrisi pohon — pohon sehat lebih tahan terhadap infeksi."
+      ],
+      "perawatan": [
+        "Monitor kulit kayu secara rutin untuk deteksi dini kanker; potong hingga jaringan sehat.",
+        "Sterilkan alat pangkas dengan alkohol 70% atau larutan pemutih 10% antar pohon.",
+        "Pastikan drainase lahan baik; genangan air memperlemah akar dan meningkatkan kerentanan.",
+        "Pemberian Kalsium dan Kalium membantu penguatan dinding sel buah.",
+        "Buang semua mumi buah saat akhir musim sebelum musim hujan berikutnya."
+      ],
+      "chunk_rag": "Busuk Hitam Apel (Apple Black Rot) disebabkan oleh jamur Botryosphaeria obtusa dan tergolong penyakit tinggi keparahannya. Gejala khas adalah bercak 'mata katak' (frog-eye) pada daun, buah membusuk dengan pola cincin konsentris hitam-cokelat, mumi buah hitam keras, dan kanker pada ranting-batang. Penyakit dipicu oleh kelembapan tinggi (24–29°C) dan luka terbuka pada pohon. Jamur bertahan di kayu mati dan mumi buah sepanjang tahun. Penanganan menggunakan Dithane M-45 (Mankozeb 80%, dosis 1,5–2 g/liter) setiap 7–10 hari sebagai protektan, dan Topsin M 70 WP (Metil Tiofanat 70%, pasta kental) untuk olesan luka pangkasan. Pencegahan: pangkas dan bakar kayu bergejala, oleskan sealant pada luka, gunakan bibit bersih, dan lakukan pemangkasan hanya saat cuaca kering. Perawatan: sterilkan alat pangkas, monitor kulit kayu rutin, pastikan drainase baik, dan buang semua mumi buah di akhir musim."
+    },
+
+    {
+      "id": "apple_cedar_rust",
+      "nama_tampil": "Karat Apel (Cedar Apple Rust)",
+      "nama_ilmiah": "Gymnosporangium juniperi-virginianae",
+      "tanaman": "Apel",
+      "tingkat_keparahan": "Sedang–Tinggi",
+      "gejala": [
+        "Bercak oranye-kuning cerah di sisi atas daun, berdiameter 1–2 cm",
+        "Bagian bawah bercak tumbuh struktur tubular seperti jari (aecia) berwarna oranye",
+        "Bercak oranye pada buah muda dekat ujung bunga",
+        "Daun terinfeksi parah menguning dan gugur lebih awal",
+        "Deformasi buah pada infeksi berat"
+      ],
+      "patogen": {
+        "nama": "Gymnosporangium juniperi-virginianae",
+        "tipe": "Jamur Basidiomycete (patogen heteroecious — butuh dua inang)",
+        "penyebab_utama": "Spora dari teliospora (galls) pada pohon Cedar/Juniper yang menyebar via angin ke apel saat musim semi basah",
+        "kondisi_pemicu": [
+          "Musim semi basah dengan suhu 10–20°C",
+          "Keberadaan pohon Juniper atau Cedar dalam radius 500 meter dari kebun apel",
+          "Hujan dan angin saat pohon Juniper berbuah (galls oranye gelatin)"
+        ]
+      },
+      "penanganan": [
+        {
+          "tipe": "Kimia — Fungisida Sistemik Kombinasi",
+          "produk": "Nativo 75 WG (Tebukonazol + Trifloksistrobin)",
+          "bahan_aktif": "Tebukonazol 50% + Trifloksistrobin 25%",
+          "dosis": "0,5 g/liter air",
+          "cara": "Semprot merata ke seluruh kanopi, fokus pada daun baru dan buah muda",
+          "waktu": "Mulai fase tunas hijau (pink bud) hingga 4 minggu setelah kelopak jatuh; interval 7–10 hari",
+          "catatan": "Paling efektif preventif. Aplikasikan sebelum atau segera setelah hujan infeksi."
+        },
+        {
+          "tipe": "Kimia — Fungisida Sistemik DMI",
+          "produk": "Score 250 EC (Difenokonazol)",
+          "bahan_aktif": "Difenokonazol 250 g/L",
+          "dosis": "0,25–0,5 ml/liter air",
+          "cara": "Semprot merata daun dan tunas muda",
+          "waktu": "Saat deteksi gejala awal; aplikasi 2–3 kali di musim semi",
+          "catatan": "Fungisida triazol sistemik; efektif kuratif hingga 48–72 jam pasca infeksi."
+        }
+      ],
+      "pencegahan": [
+        "Hindari menanam apel dalam radius 500 meter dari pohon Juniper atau Cedar (inang alternasif wajib).",
+        "Tanam varietas apel tahan karat (rust-resistant) seperti Redfree, Liberty, Goldrush.",
+        "Musnahkan galls (benjolan gelatin oranye) dari pohon Juniper di sekitar kebun sebelum musim semi.",
+        "Semprot fungisida preventif DMI sebelum kuncup mekar saat prakiraan cuaca basah.",
+        "Tingkatkan sirkulasi udara dengan pemangkasan rutin."
+      ],
+      "perawatan": [
+        "Aplikasikan fungisida sistemik segera setelah hujan musim semi yang pertama untuk proteksi kuratif.",
+        "Berikan pupuk Seng (Zn) dan Boron (B) untuk memperkuat dinding sel daun.",
+        "Monitor intensif dari fase pink bud hingga 4–6 minggu setelah berbunga.",
+        "Catat lokasi pohon Juniper terdekat dan jadikan referensi untuk penentuan waktu semprot.",
+        "Lakukan sanitasi kebun di akhir musim untuk mengurangi inokulum."
+      ],
+      "chunk_rag": "Karat Apel (Cedar Apple Rust) disebabkan oleh jamur Gymnosporangium juniperi-virginianae yang unik karena membutuhkan dua inang: apel dan pohon Cedar/Juniper. Gejala: bercak oranye-kuning cerah di sisi atas daun, struktur tubular oranye di sisi bawah (aecia), dan bercak buah. Penyakit dipicu musim semi basah (10–20°C) dan keberadaan Juniper dalam radius 500 m. Penanganan menggunakan Nativo 75 WG (Tebukonazol + Trifloksistrobin, dosis 0,5 g/liter) interval 7–10 hari sejak pink bud, atau Score 250 EC (Difenokonazol, 0,25–0,5 ml/liter) saat gejala awal. Pencegahan kunci: jangan tanam apel dekat Juniper, gunakan varietas tahan karat, dan musnahkan galls Juniper sebelum musim semi. Perawatan: pupuk Zn dan B untuk kekuatan sel daun, monitoring intensif fase pink bud hingga 6 minggu pascabunga."
+    },
+
+    {
+      "id": "corn_cercospora",
+      "nama_tampil": "Gray Leaf Spot Jagung (Cercospora)",
+      "nama_ilmiah": "Cercospora zeae-maydis / Cercospora zeina",
+      "tanaman": "Jagung",
+      "tingkat_keparahan": "Tinggi",
+      "gejala": [
+        "Lesi persegi panjang panjang (hingga 5 cm) berwarna tan-abu-abu, sejajar sejajar urat daun",
+        "Tepi lesi dibatasi oleh urat daun yang memberi penampilan 'kotak-kotak' atau persegi",
+        "Pada kondisi lembap, lesi tampak berdebu abu-abu akibat sporulasi jamur",
+        "Lesi bermula di daun-daun bawah, kemudian menyebar ke atas",
+        "Infeksi berat menyebabkan hawar daun masif, rebah (lodging), dan penurunan bobot biji"
+      ],
+      "patogen": {
+        "nama": "Cercospora zeae-maydis",
+        "tipe": "Jamur Deuteromycete (jamur konidial)",
+        "penyebab_utama": "Konidia yang tersisa pada sisa tanaman terinfeksi di permukaan tanah antar musim",
+        "kondisi_pemicu": [
+          "Kelembapan relatif ≥90% selama ≥12 jam berturut-turut",
+          "Suhu hangat 25–30°C",
+          "Sistem olah tanah minimum (no-till) yang meninggalkan sisa tanaman di permukaan",
+          "Penanaman jagung terus-menerus (monokultur) tanpa rotasi"
+        ]
+      },
+      "penanganan": [
+        {
+          "tipe": "Kimia — Fungisida Sistemik Kombinasi",
+          "produk": "Amistar Top 325 SC (Azoksistrobin + Difenokonazol)",
+          "bahan_aktif": "Azoksistrobin 200 g/L + Difenokonazol 125 g/L",
+          "dosis": "0,5–1 ml/liter air; 0,5–1 L produk/ha",
+          "cara": "Semprot merata seluruh permukaan daun, terutama daun di atas tongkol; gunakan nosel datar",
+          "waktu": "Fase vegetatif akhir V10 hingga VT (kemunculan malai); ulangi jika penyakit masih berkembang setelah 14 hari",
+          "catatan": "Kombinasi strobilurin + triazol paling efektif untuk GLS; tangani dari dua mode aksi sekaligus."
+        },
+        {
+          "tipe": "Kimia — Fungisida Triazol",
+          "produk": "Anvil 50 SC (Heksakonazol)",
+          "bahan_aktif": "Heksakonazol 50 g/L",
+          "dosis": "1–1,5 ml/liter air",
+          "cara": "Semprot merata ke seluruh tajuk tanaman",
+          "waktu": "Saat lesi pertama terdeteksi pada daun-daun bawah, sebelum menyebar ke daun tongkol",
+          "catatan": "Alternatif ekonomis; efektif kuratif pada tahap awal. Kurang persistensi dibanding kombinasi."
+        }
+      ],
+      "pencegahan": [
+        "Gunakan varietas hibrida jagung yang memiliki rating ketahanan GLS tinggi (skala 1–9; pilih ≥6).",
+        "Lakukan rotasi tanaman minimal satu musim dengan tanaman non-serealia (kedelai, kacang tanah).",
+        "Bajak tanah untuk membenamkan sisa tanaman terinfeksi sedalam >10 cm guna mempercepat dekomposisi.",
+        "Atur jarak tanam ideal (75×20 cm atau 75×25 cm) agar sirkulasi udara baik dan daun cepat kering.",
+        "Hindari penanaman jagung monokultur terus-menerus."
+      ],
+      "perawatan": [
+        "Optimalisasi pemupukan Kalium (KCl) karena Kalium memperkuat dinding sel terhadap penetrasi jamur.",
+        "Pemantauan intensif mulai fase V8 — periksa daun-daun bawah setiap 5–7 hari.",
+        "Jika ≥50% tanaman menunjukkan lesi di daun ketiga di bawah daun tongkol sebelum malai keluar, segera fungisida.",
+        "Hindari pemupukan Nitrogen berlebih — tanaman yang terlalu subur lebih rentan.",
+        "Dokumentasi tingkat keparahan tiap lahan untuk panduan musim berikutnya."
+      ],
+      "chunk_rag": "Gray Leaf Spot Jagung (GLS) disebabkan oleh Cercospora zeae-maydis dan merupakan penyakit paling merusak secara global pada jagung. Gejala khas: lesi persegi panjang abu-abu panjang (hingga 5 cm) yang sejajar urat daun, berbatas urat daun membentuk pola kotak, bermula dari daun bawah menyebar ke atas. Kondisi penyebab: kelembapan ≥90% selama ≥12 jam dan suhu 25–30°C, diperparah oleh monokultur dan tanpa bajak (no-till). Penanganan terbaik menggunakan Amistar Top 325 SC (Azoksistrobin 200 g/L + Difenokonazol 125 g/L, dosis 0,5–1 ml/liter) disemprotkan pada fase V10 hingga kemunculan malai. Alternatif: Anvil 50 SC (Heksakonazol 50 g/L, dosis 1–1,5 ml/liter) saat gejala awal. Pencegahan: varietas tahan GLS, rotasi tanaman, bajak sisa tanaman, dan jarak tanam ideal. Perawatan: optimalisasi pupuk Kalium, monitoring intensif dari fase V8, hindari Nitrogen berlebih."
+    },
+
+    {
+      "id": "corn_common_rust",
+      "nama_tampil": "Karat Daun Jagung (Common Rust)",
+      "nama_ilmiah": "Puccinia sorghi",
+      "tanaman": "Jagung",
+      "tingkat_keparahan": "Sedang",
+      "gejala": [
+        "Pustula kecil berbentuk oval-memanjang, cokelat kemerahan hingga oranye, tersebar di kedua permukaan daun",
+        "Spora berbentuk bubuk cokelat kemerahan (uredospora) keluar dari pustula saat disentuh",
+        "Daun menguning di sekitar pustula (klorosis) dan dapat mengering",
+        "Pada infeksi lanjut, pustula berubah warna menjadi hitam (teliospores)",
+        "Daun di sekitar tongkol paling rentan; infeksi berat menyebabkan penurunan hasil"
+      ],
+      "patogen": {
+        "nama": "Puccinia sorghi",
+        "tipe": "Jamur Basidiomycete (karat/rust)",
+        "penyebab_utama": "Uredospora terbawa angin jarak jauh dari wilayah penghasil karat; tidak bertahan di tanah",
+        "kondisi_pemicu": [
+          "Suhu sejuk 16–23°C dengan embun yang sering",
+          "Kelembapan tinggi dan langit berawan",
+          "Tanaman yang ditanam saat suhu malam rendah"
+        ]
+      },
+      "penanganan": [
+        {
+          "tipe": "Kimia — Fungisida Sistemik",
+          "produk": "Anvil 50 SC (Heksakonazol)",
+          "bahan_aktif": "Heksakonazol 50 g/L",
+          "dosis": "1–1,5 ml/liter air",
+          "cara": "Semprot merata seluruh kanopi termasuk bagian bawah daun",
+          "waktu": "Saat bintik karat pertama muncul; ulangi setiap 14 hari bila kondisi menguntungkan penyakit",
+          "catatan": "Paling ekonomis untuk karat jagung; efektif pada stadium awal pustula."
+        },
+        {
+          "tipe": "Kimia — Fungisida Kombinasi",
+          "produk": "Nativo 75 WG (Tebukonazol + Trifloksistrobin)",
+          "bahan_aktif": "Tebukonazol 50% + Trifloksistrobin 25%",
+          "dosis": "0,5 g/liter air",
+          "cara": "Semprot merata tajuk; aplikasi pagi hari untuk efektivitas optimal",
+          "waktu": "Fase vegetatif menjelang berbunga bila tekanan penyakit tinggi",
+          "catatan": "Pilihan pada serangan berat atau musim dengan tekanan karat sangat tinggi."
+        }
+      ],
+      "pencegahan": [
+        "Gunakan benih hibrida jagung yang memiliki ketahanan tinggi terhadap karat (Puccinia sorghi).",
+        "Tanam serempak dalam satu kawasan untuk mempersingkat periode rentan.",
+        "Hindari jadwal tanam saat suhu malam diperkirakan sejuk (<20°C) yang mendukung infeksi.",
+        "Sanitasi gulma rumput (Oxalis spp., inang alternasif) di sekitar lahan.",
+        "Jaga keseimbangan pupuk Nitrogen — tanaman terlalu subur lebih rentan."
+      ],
+      "perawatan": [
+        "Hindari pemupukan Urea (Nitrogen) berlebih yang membuat daun lebih lunak dan rentan.",
+        "Aplikasikan Silika cair (Si) untuk mengeraskan dinding sel daun dan meningkatkan ketahanan.",
+        "Bila karat mencapai daun di sekitar tongkol sebelum fase pengisian biji, segera kendalikan secara kimia.",
+        "Monitoring mingguan dimulai dari fase V6 di wilayah endemik karat.",
+        "Rotasi tanaman membantu mengurangi tekanan penyakit musim berikutnya."
+      ],
+      "chunk_rag": "Karat Daun Jagung (Common Rust) disebabkan oleh Puccinia sorghi, tergolong keparahan sedang namun bisa serius jika menyerang saat fase pengisian biji. Gejala: pustula oval cokelat-oranye di kedua sisi daun yang melepaskan spora bubuk kemerahan saat disentuh, lalu mengering. Berkembang pada suhu sejuk 16–23°C dengan embun tinggi. Spora menyebar via angin jarak jauh. Penanganan: Anvil 50 SC (Heksakonazol 50 g/L, dosis 1–1,5 ml/liter) saat pustula pertama muncul, atau Nativo 75 WG (Tebukonazol + Trifloksistrobin, 0,5 g/liter) untuk kasus berat. Pencegahan: benih tahan karat, tanam serempak satu kawasan, hindari tanam saat malam sejuk, sanitasi gulma rumput. Perawatan: hindari Nitrogen berlebih, aplikasi Silika cair untuk ketahanan daun, monitoring mingguan dari fase V6."
+    },
+
+    {
+      "id": "corn_northern_leaf_blight",
+      "nama_tampil": "Hawar Daun Utara Jagung (Northern Corn Leaf Blight)",
+      "nama_ilmiah": "Exserohilum turcicum",
+      "tanaman": "Jagung",
+      "tingkat_keparahan": "Tinggi",
+      "gejala": [
+        "Lesi lebar berbentuk 'cerutu' atau elips memanjang (7–15 cm), berwarna abu-abu kecokelatan",
+        "Tepi lesi tidak berbatas urat daun (berbeda dengan GLS), tampak seperti daun terbakar",
+        "Pada kondisi lembap, permukaan lesi tampak kehijauan gelap akibat sporulasi (konidia)",
+        "Lesi bermula di daun bawah dan menyebar cepat ke atas saat kondisi mendukung",
+        "Infeksi berat sebelum fase pengisian biji menyebabkan penurunan hasil 30–50%"
+      ],
+      "patogen": {
+        "nama": "Exserohilum turcicum",
+        "tipe": "Jamur Deuteromycete",
+        "penyebab_utama": "Konidia dari sisa tanaman terinfeksi yang bertahan di permukaan tanah",
+        "kondisi_pemicu": [
+          "Suhu moderat 18–27°C dengan kelembapan tinggi",
+          "Embun pagi yang sering dan cuaca berawan berkepanjangan",
+          "No-till atau sisa tanaman tidak dibenamkan"
+        ]
+      },
+      "penanganan": [
+        {
+          "tipe": "Kimia — Fungisida Kombinasi",
+          "produk": "Nativo 75 WG (Tebukonazol + Trifloksistrobin)",
+          "bahan_aktif": "Tebukonazol 50% + Trifloksistrobin 25%",
+          "dosis": "0,5–1 g/liter air",
+          "cara": "Semprot merata tajuk tanaman; gunakan nosel datar untuk jangkauan kanopi optimal",
+          "waktu": "Saat gejala awal muncul (deteksi lesi pertama) atau pada fase berbunga (VT/R1)",
+          "catatan": "Strobilurin + triazol memberikan perlindungan terlama; efektif preventif dan kuratif awal."
+        },
+        {
+          "tipe": "Kimia — Fungisida Sistemik",
+          "produk": "Amistar Top 325 SC (Azoksistrobin + Difenokonazol)",
+          "bahan_aktif": "Azoksistrobin 200 g/L + Difenokonazol 125 g/L",
+          "dosis": "0,5–1 ml/liter air",
+          "cara": "Aplikasi pada seluruh kanopi; fokus daun di atas tongkol",
+          "waktu": "Fase V8 hingga VT; tidak efektif jika diaplikasikan setelah 50% daun hawar",
+          "catatan": "Alternatif pada kondisi tekanan penyakit tinggi; rotasi dengan Nativo untuk cegah resistensi."
+        }
+      ],
+      "pencegahan": [
+        "Tanam varietas toleran NCLB (Northern Corn Leaf Blight) dengan gen ketahanan Ht.",
+        "Bajak dan benamkan sisa panen sedalam 15–20 cm untuk mempercepat dekomposisi inokulum.",
+        "Lakukan rotasi tanaman dengan kedelai atau kacang-kacangan minimal satu musim.",
+        "Seed treatment (perlakuan benih) dengan fungisida sebelum tanam untuk proteksi awal.",
+        "Hindari jadwal tanam saat periode embun pagi tinggi diperkirakan berlarut."
+      ],
+      "perawatan": [
+        "Berikan pupuk daun mengandung Boron (B) dan Seng (Zn) untuk memperkuat ketahanan tanaman.",
+        "Monitor lahan secara intensif pasca hujan angin yang dapat menyebarkan konidia.",
+        "Pemupukan NPK sesuai dosis rekomendasi; Nitrogen berlebih memperparah kerentanan.",
+        "Jika terdapat ≥30% lesi sebelum fase pengisian biji, pertimbangkan fungisida segera.",
+        "Dokumentasikan keparahan per lahan sebagai referensi varietas dan manajemen musim depan."
+      ],
+      "chunk_rag": "Hawar Daun Utara Jagung (NCLB/Northern Corn Leaf Blight) disebabkan oleh Exserohilum turcicum dengan tingkat keparahan tinggi. Gejala khas: lesi elips besar berbentuk cerutu (7–15 cm), abu-abu kecokelatan, batas tidak tegas seperti daun terbakar — berbeda dari GLS yang berbatas urat daun. Berkembang pada suhu 18–27°C dengan embun pagi sering. Inokulum bertahan di sisa tanaman. Penanganan: Nativo 75 WG (Tebukonazol + Trifloksistrobin, dosis 0,5–1 g/liter) atau Amistar Top 325 SC (Azoksistrobin + Difenokonazol, 0,5–1 ml/liter), diaplikasikan saat gejala awal atau fase berbunga. Pencegahan: varietas dengan gen ketahanan Ht, bajak sisa tanaman, rotasi dengan kedelai, dan seed treatment. Perawatan: pupuk daun B dan Zn, monitoring pasca hujan angin, hindari Nitrogen berlebih."
+    },
+
+    {
+      "id": "grape_black_rot",
+      "nama_tampil": "Busuk Hitam Anggur (Grape Black Rot)",
+      "nama_ilmiah": "Guignardia bidwellii",
+      "tanaman": "Anggur",
+      "tingkat_keparahan": "Sangat Tinggi",
+      "gejala": [
+        "Buah muda menunjukkan bercak cokelat kecil yang cepat membesar dan menghitam",
+        "Buah membusuk total, mengkerut, dan mengering menjadi mumi hitam keras yang menempel di tandan",
+        "Bintik hitam kecil (piknida jamur) tampak di permukaan lesi buah",
+        "Daun menunjukkan bercak melingkar cokelat-tan dengan tepi cokelat gelap, berisi piknida hitam di tengah",
+        "Pucuk muda dan tangkai daun dapat terinfeksi membentuk lesi memanjang"
+      ],
+      "patogen": {
+        "nama": "Guignardia bidwellii",
+        "tipe": "Jamur Ascomycete",
+        "penyebab_utama": "Spora dari mumi buah (di tandan atau tanah) yang bertahan dari musim sebelumnya",
+        "kondisi_pemicu": [
+          "Suhu 21–27°C dengan hujan atau kelembapan tinggi",
+          "Periode basah daun ≥6 jam selama suhu > 16°C",
+          "Buah muda sangat rentan: 0–3 minggu setelah pembungaan"
+        ]
+      },
+      "penanganan": [
+        {
+          "tipe": "Kimia — Fungisida Sistemik Terbaik",
+          "produk": "Amistar Top 325 SC (Azoksistrobin + Difenokonazol)",
+          "bahan_aktif": "Azoksistrobin 200 g/L + Difenokonazol 125 g/L",
+          "dosis": "0,5–1 ml/liter air",
+          "cara": "Semprot merata seluruh kanopi: daun, tandan buah, pucuk; semprot hingga runoff",
+          "waktu": "Mulai tunas tumbuh 5–10 cm (bud break) hingga 3–4 minggu setelah mekar; interval 7–10 hari saat cuaca basah",
+          "catatan": "Paling efektif untuk black rot anggur. Pastikan semprot bagian interior kanopi di mana penyakit paling parah."
+        },
+        {
+          "tipe": "Kimia — Fungisida Strobilurin",
+          "produk": "Abound / Quadris (Azoksistrobin)",
+          "bahan_aktif": "Azoksistrobin 250 g/L",
+          "dosis": "0,4–0,8 ml/liter air; ikuti label produk",
+          "cara": "Semprot merata; hindari semprot saat hujan",
+          "waktu": "Fase bud break hingga berry set; interval 10–14 hari",
+          "catatan": "Rotasi dengan fungisida berbeda mode aksi untuk hindari resistensi strobilurin."
+        },
+        {
+          "tipe": "Organik — Fungisida Tembaga",
+          "produk": "Nordox 56 WP (Tembaga Oksida)",
+          "bahan_aktif": "Tembaga Oksida 56%",
+          "dosis": "1,5–2 g/liter air",
+          "cara": "Semprot preventif sebelum hujan; tambahkan perekat",
+          "waktu": "Dorman hingga bud break untuk mengurangi inokulum awal musim",
+          "catatan": "Protektan kontak saja; tidak masuk jaringan. Kombinasikan dengan fungisida sistemik saat musim aktif."
+        }
+      ],
+      "pencegahan": [
+        "Bakar dan musnahkan semua mumi buah yang tertinggal di tandan atau jatuh ke tanah setelah panen.",
+        "Gunakan sistem trellis tinggi agar tandan buah jauh dari permukaan tanah dan sumber inokulum.",
+        "Atur barisan tanaman searah angin dominan untuk mempercepat pengeringan kanopi.",
+        "Sanitasi lahan total (penjarangan daun, pemangkasan ranting kering) selama periode dorman.",
+        "Jangan biarkan gulma tinggi di bawah tandan yang meningkatkan kelembapan mikro."
+      ],
+      "perawatan": [
+        "Penjarangan daun di sekitar tandan buah untuk meningkatkan penetrasi fungisida dan aliran udara.",
+        "Gunakan irigasi tetes, bukan irigasi semprot dari atas, untuk mengurangi basahnya daun dan buah.",
+        "Pupuk Kalium (K) tinggi saat fase pematangan buah (veraison) untuk menguatkan kulit buah.",
+        "Pantau cuaca online: jika >6 jam basah daun pada suhu >18°C diprediksi, segera jadwalkan semprot.",
+        "Catat posisi dan jumlah mumi tiap musim sebagai indikator tekanan penyakit musim depan."
+      ],
+      "chunk_rag": "Busuk Hitam Anggur (Grape Black Rot) disebabkan oleh Guignardia bidwellii, penyakit paling serius dan keparahannya sangat tinggi pada tanaman anggur. Gejala khas: buah muda membusuk total lalu mengering menjadi mumi hitam keras di tandan; daun bergejala bercak cokelat berisi piknida hitam. Sangat berbahaya 0–4 minggu setelah pembungaan saat buah paling rentan. Berkembang pada suhu 21–27°C dengan hujan atau daun basah >6 jam. Penanganan terbaik: Amistar Top 325 SC (Azoksistrobin + Difenokonazol, dosis 0,5–1 ml/liter) disemprotkan interval 7–10 hari sejak bud break hingga berry set. Alternatif: Azoksistrobin tunggal (0,4–0,8 ml/liter). Organik: Nordox 56 WP (Tembaga Oksida, 1,5–2 g/liter) preventif sebelum hujan. Pencegahan: bakar mumi buah, trellis tinggi, atur barisan searah angin, sanitasi total dorman. Perawatan: penjarangan daun sekitar tandan, irigasi tetes, pupuk Kalium tinggi saat pematangan."
+    },
+
+    {
+      "id": "grape_esca_black_measles",
+      "nama_tampil": "Esca / Black Measles Anggur",
+      "nama_ilmiah": "Phaeomoniella chlamydospora / Phaeoacremonium minimum",
+      "tanaman": "Anggur",
+      "tingkat_keparahan": "Sangat Tinggi",
+      "gejala": [
+        "Daun menunjukkan pola 'garis harimau' (tiger stripe): bercak klorosis kuning-merah antar urat daun",
+        "Bintik hitam kecil tersebar pada permukaan buah (black measles), buah tidak layak jual",
+        "Kematian mendadak seluruh kanopi dalam satu musim (apoplexy / grapevine apoplexy)",
+        "Kayu bagian dalam berwarna gelap atau memiliki sektor nekrotik saat batang dipotong",
+        "Perlemahan progresif dari tahun ke tahun; tanaman tua (>5 tahun) paling terpengaruh"
+      ],
+      "patogen": {
+        "nama": "Phaeomoniella chlamydospora dan Phaeoacremonium minimum (kompleks fungi kayu)",
+        "tipe": "Jamur Ascomycete (patogen kayu/trunk disease)",
+        "penyebab_utama": "Infeksi pada luka pangkasan yang terbuka, terutama saat kondisi basah di musim gugur-semi",
+        "kondisi_pemicu": [
+          "Pohon anggur berumur > 5 tahun dengan banyak bekas pangkasan",
+          "Luka pangkasan dibiarkan terbuka di cuaca basah",
+          "Tidak ada perlindungan luka (wound sealing) pasca pangkas"
+        ]
+      },
+      "penanganan": [
+        {
+          "tipe": "Kimia — Proteksi Luka Pangkas",
+          "produk": "Topsin M 70 WP (Metil Tiofanat)",
+          "bahan_aktif": "Metil Tiofanat 70%",
+          "dosis": "Buat pasta kental: campurkan dengan air secukupnya",
+          "cara": "Oleskan tebal pada setiap luka pangkasan diameter > 1 cm; pastikan seluruh permukaan luka tertutup",
+          "waktu": "Segera (dalam 30 menit) setelah pemangkasan selesai",
+          "catatan": "Ini satu-satunya intervensi kimia efektif. Esca tidak bisa disembuhkan setelah masuk ke kayu; pencegahan luka adalah kunci."
+        },
+        {
+          "tipe": "Mekanis — Bedah Kayu",
+          "produk": "Tidak ada produk kimia; prosedur bedah kayu",
+          "bahan_aktif": "N/A",
+          "dosis": "N/A",
+          "cara": "Potong bagian kayu terinfeksi (berwarna gelap) hingga jaringan putih sehat; oleskan Topsin pasta pada bekas potongan",
+          "waktu": "Saat dorman; hanya pada pohon yang masih memiliki bagian sehat",
+          "catatan": "Efektif pada pohon muda dengan infeksi terlokalisir. Pohon tua dengan infeksi sistemik sebaiknya dibongkar."
+        }
+      ],
+      "pencegahan": [
+        "Gunakan bibit berlabel bebas patogen kayu (Phaeomoniella, Phaeoacremonium) dari pembibitan bersertifikat.",
+        "Pangkas hanya saat cuaca kering dan terik — hindari pemangkasan saat hujan atau embun berat.",
+        "Terapkan teknik double pruning (pangkas kasar di musim gugur, finalisasi di akhir musim dorman) untuk meminimalkan luka besar.",
+        "Oleskan wound sealant (pasta Topsin atau cat akrilik + asam borat 5%) pada SEMUA luka pangkasan.",
+        "Bakar atau kubur dalam pohon anggur yang sudah terinfeksi batang utamanya — jangan biarkan di lahan."
+      ],
+      "perawatan": [
+        "Sterilkan gunting pangkas dan gergaji dengan alkohol 70% atau larutan pemutih 10% antara setiap pohon.",
+        "Tutup semua luka pangkasan, termasuk yang berukuran kecil, tanpa terkecuali.",
+        "Berikan pupuk organik (kompos) untuk meningkatkan vitalitas tanaman tua dan daya tahan terhadap penyakit.",
+        "Kurangi beban produksi pada pohon yang menunjukkan gejala esca untuk memperpanjang umur produktif.",
+        "Monitor warna daun tiap minggu di musim tanam — gejala tiger stripe awal sering terlewat."
+      ],
+      "chunk_rag": "Esca / Black Measles Anggur adalah penyakit kayu (trunk disease) sangat serius yang disebabkan oleh kompleks jamur Phaeomoniella chlamydospora dan Phaeoacremonium minimum. Penyakit ini menginfeksi luka pangkasan dan perlahan-lahan menghancurkan jaringan kayu. Gejala: pola 'tiger stripe' klorosis antar urat daun, bintik hitam pada buah (black measles), hingga apoplexy (kematian mendadak seluruh kanopi). Sangat berbahaya pada kebun anggur berumur >5 tahun. Tidak ada cara menyembuhkan infeksi dalam kayu — satu-satunya penanganan efektif adalah proteksi luka pangkasan dengan pasta Topsin M 70 WP (Metil Tiofanat 70%) yang dioleskan segera dalam 30 menit setelah pangkas. Pencegahan mutlak: pangkas hanya saat cuaca kering, oleskan wound sealant pada SEMUA luka, gunakan bibit bebas patogen, dan terapkan double pruning. Perawatan: sterilkan alat pangkas antarpohon, beri pupuk organik untuk vitalitas, dan monitoring warna daun mingguan."
+    },
+
+    {
+      "id": "grape_leaf_blight_isariopsis_leaf_spot",
+      "nama_tampil": "Hawar Daun Anggur (Isariopsis / Pseudocercospora)",
+      "nama_ilmiah": "Pseudocercospora vitis",
+      "tanaman": "Anggur",
+      "tingkat_keparahan": "Sedang",
+      "gejala": [
+        "Bercak tidak beraturan cokelat gelap pada daun tua, sering dimulai dari tepi atau ujung daun",
+        "Bercak dapat bergabung dan menyebabkan daun mengering dan gugur prematur",
+        "Sisi bawah daun pada kondisi lembap menunjukkan sporulasi (bulu-bulu halus jamur)",
+        "Penurunan kadar gula buah akibat berkurangnya luas daun fotosintetik",
+        "Umumnya muncul lebih lambat dalam musim tanam dibanding penyakit anggur lainnya"
+      ],
+      "patogen": {
+        "nama": "Pseudocercospora vitis",
+        "tipe": "Jamur Deuteromycete",
+        "penyebab_utama": "Spora dari sisa daun terinfeksi di tanah atau kanopi yang lembap",
+        "kondisi_pemicu": [
+          "Kelembapan udara tinggi (>85%) dengan kanopi yang terlalu rimbun",
+          "Cuaca hangat dan lembap di akhir musim tanam",
+          "Kebun dengan drainase buruk dan gulma lebat"
+        ]
+      },
+      "penanganan": [
+        {
+          "tipe": "Kimia — Fungisida Kontak Tembaga",
+          "produk": "Nordox 56 WP (Tembaga Oksida)",
+          "bahan_aktif": "Tembaga Oksida 56%",
+          "dosis": "1–2 g/liter air",
+          "cara": "Semprot seluruh permukaan daun (atas dan bawah) hingga merata; tambahkan perekat",
+          "waktu": "Saat gejala awal muncul; ulangi setiap 10–14 hari",
+          "catatan": "Fungisida kontak persisten; cocok untuk akhir musim saat risiko resistensi tinggi."
+        },
+        {
+          "tipe": "Kimia — Fungisida Sistemik",
+          "produk": "Score 250 EC (Difenokonazol)",
+          "bahan_aktif": "Difenokonazol 250 g/L",
+          "dosis": "0,25–0,5 ml/liter air",
+          "cara": "Semprot merata ke seluruh kanopi; fokus pada daun tua yang pertama bergejala",
+          "waktu": "Saat muncul gejala awal di daun tua atau kondisi lembap berkepanjangan",
+          "catatan": "Sistemik kuratif; lebih efektif dari tembaga untuk pengendalian aktif."
+        }
+      ],
+      "pencegahan": [
+        "Bersihkan serasah daun dan sisa tanaman pasca panen untuk mengurangi inokulum.",
+        "Lakukan penjarangan kanopi secara rutin untuk mengurangi kelembapan mikro.",
+        "Kendalikan gulma di area perakaran dan di bawah kanopi.",
+        "Pastikan sistem drainase lahan berjalan baik; hindari genangan.",
+        "Atur jarak tanam dan trellis untuk memaksimalkan penetrasi sinar matahari dan aliran udara."
+      ],
+      "perawatan": [
+        "Berikan pupuk Kalium (K) cukup untuk memperkuat jaringan daun dan meningkatkan toleransi penyakit.",
+        "Lakukan monitoring daun tua di bagian bawah kanopi setiap 7–10 hari.",
+        "Hindari pemupukan Nitrogen berlebih yang menghasilkan daun rimbun dan lunak.",
+        "Aplikasikan mulsa di bawah tanaman untuk mengurangi percikan spora tanah.",
+        "Di akhir musim, pangkas dan bakar semua daun bergejala."
+      ],
+      "chunk_rag": "Hawar Daun Anggur (Isariopsis Leaf Spot / Pseudocercospora Leaf Spot) disebabkan oleh Pseudocercospora vitis dengan keparahan sedang. Gejala: bercak tidak beraturan cokelat gelap pada daun tua yang dapat bergabung dan menyebabkan gugur prematur, menurunkan luas fotosintetik dan kadar gula buah. Berkembang pada kelembapan >85% dengan kanopi rimbun, terutama di akhir musim. Penanganan: Nordox 56 WP (Tembaga Oksida 56%, dosis 1–2 g/liter) interval 10–14 hari sebagai protektan, atau Score 250 EC (Difenokonazol 250 g/L, 0,25–0,5 ml/liter) untuk pengendalian sistemik. Pencegahan: bersihkan serasah daun pasca panen, penjarangan kanopi, kendalikan gulma, pastikan drainase baik. Perawatan: pupuk Kalium cukup, monitoring daun tua bawah, hindari Nitrogen berlebih, mulsa untuk cegah percikan spora."
+    },
+
+    {
+      "id": "tomato_bacterial_spot",
+      "nama_tampil": "Bercak Bakteri Tomat",
+      "nama_ilmiah": "Xanthomonas perforans / Xanthomonas euvesicatoria",
+      "tanaman": "Tomat",
+      "tingkat_keparahan": "Tinggi",
+      "gejala": [
+        "Bercak hitam kecil basah (water-soaked) diameter 1–3 mm, dikelilingi halo kuning di daun",
+        "Bercak tua menjadi cokelat gelap, kering, dan bisa berlubang (shot-hole)",
+        "Keropeng atau bintil kasar menonjol pada permukaan buah muda",
+        "Gugur daun masif pada infeksi parah, membuat tanaman gundul",
+        "Buah bergejala keropeng tidak layak jual meski masih bisa dimakan"
+      ],
+      "patogen": {
+        "nama": "Xanthomonas perforans / Xanthomonas euvesicatoria",
+        "tipe": "Bakteri Gram-negatif",
+        "penyebab_utama": "Benih terinfeksi atau sisa tanaman; menyebar melalui percikan air hujan dan irigasi overhead",
+        "kondisi_pemicu": [
+          "Suhu tinggi 25–30°C dengan kelembapan tinggi",
+          "Irigasi semprot dari atas yang menyebabkan percikan air",
+          "Luka pada daun atau buah (serangga, angin, hujan lebat)"
+        ]
+      },
+      "penanganan": [
+        {
+          "tipe": "Kimia — Bakterisida Tembaga",
+          "produk": "Kocide 77 WD (Tembaga Hidroksida)",
+          "bahan_aktif": "Tembaga Hidroksida 77%",
+          "dosis": "1,5–2 g/liter air",
+          "cara": "Semprot merata seluruh bagian tanaman; pastikan merata di permukaan bawah dan atas daun",
+          "waktu": "Mulai 2 minggu setelah tanam; ulangi setiap 5–7 hari saat cuaca basah dan panas",
+          "catatan": "Bakterisida kontak berbasis tembaga; efektif preventif. Tidak bisa membunuh bakteri yang sudah di dalam jaringan."
+        },
+        {
+          "tipe": "Kimia — Bakterisida Kombinasi",
+          "produk": "Agrimycin / Streptomycin Sulfat (jika tersedia)",
+          "bahan_aktif": "Streptomisin Sulfat",
+          "dosis": "Ikuti label produk (biasanya 100–200 ppm)",
+          "cara": "Semprot merata; jangan dicampur dengan tembaga dalam satu tangki (inkompatibel)",
+          "waktu": "Alternatif rotasi dengan tembaga; hindari penggunaan berulang untuk cegah resistensi bakteri",
+          "catatan": "Antibiotik pertanian; gunakan secara bijaksana. Resistensi terhadap streptomisin umum terjadi."
+        }
+      ],
+      "pencegahan": [
+        "Gunakan benih bersertifikat bebas bakteri atau lakukan perlakuan benih dengan air panas (50°C, 25 menit).",
+        "Hindari irigasi semprot dari atas; gunakan irigasi tetes untuk menjaga daun tetap kering.",
+        "Bersihkan gulma inang (ranti/terong liar, Solanum spp.) di sekitar lahan.",
+        "Lakukan rotasi lahan minimal 2 musim dengan tanaman non-solanaceae (padi, jagung).",
+        "Jangan bekerja di lahan saat daun basah — bakteri menyebar mudah melalui kontak tangan dan alat."
+      ],
+      "perawatan": [
+        "Pangkas daun bergejala hanya saat cuaca kering dan terik; sterilkan gunting sesudahnya.",
+        "Sterilkan semua alat kerja (gunting, tiang penyangga) setelah menangani tanaman bergejala.",
+        "Aplikasikan Dolomit (kapur pertanian) untuk menstabilkan pH tanah 6,2–6,8 yang kurang mendukung Xanthomonas.",
+        "Hindari pemupukan Nitrogen berlebih yang menghasilkan jaringan lunak rentan bakteri.",
+        "Cabut dan buang (bakar) tanaman yang terinfeksi sangat parah untuk mencegah sumber inokulum."
+      ],
+      "chunk_rag": "Bercak Bakteri Tomat disebabkan oleh bakteri Xanthomonas perforans/euvesicatoria, tergolong tingkat keparahan tinggi. Gejala khas: bercak hitam kecil berair dengan halo kuning di daun (berlubang saat kering), keropeng menonjol pada buah, dan gugur daun masif. Bakteri menyebar via percikan air dan benih terinfeksi; berkembang pada suhu 25–30°C dengan kelembapan tinggi. Penanganan: Kocide 77 WD (Tembaga Hidroksida 77%, dosis 1,5–2 g/liter) setiap 5–7 hari saat cuaca basah-panas, mulai 2 minggu setelah tanam. Alternatif: rotasi dengan Streptomisin Sulfat (ikuti label) dengan hati-hati karena risiko resistensi. Pencegahan: benih bebas bakteri, hindari irigasi overhead, bersihkan gulma Solanum, rotasi 2 musim dengan non-solanaceae. Perawatan: sterilkan alat, stabilkan pH tanah dengan Dolomit, hindari Nitrogen berlebih."
+    },
+
+    {
+      "id": "tomato_early_blight",
+      "nama_tampil": "Bercak Kering Tomat (Early Blight)",
+      "nama_ilmiah": "Alternaria solani / Alternaria linariae",
+      "tanaman": "Tomat",
+      "tingkat_keparahan": "Sedang–Tinggi",
+      "gejala": [
+        "Bercak cokelat tua berbentuk 'cincin konsentris' menyerupai target/sasaran panah (target spot) pada daun tua",
+        "Bercak dikelilingi halo kuning; daun menguning dan gugur dimulai dari bawah",
+        "Batang menunjukkan bercak cokelat hitam memanjang, terutama di pangkal",
+        "Busuk pada pangkal tangkai buah (stem-end rot); bercak cekung pada buah",
+        "Defoliasi progresif dari bawah ke atas membuat tanaman gundul dan lemah"
+      ],
+      "patogen": {
+        "nama": "Alternaria solani / Alternaria linariae",
+        "tipe": "Jamur Deuteromycete",
+        "penyebab_utama": "Konidia dari sisa tanaman di tanah; spora tersebar via angin dan percikan hujan",
+        "kondisi_pemicu": [
+          "Kelembapan udara tinggi (>85%) dengan suhu 24–29°C",
+          "Tanaman stres: kekurangan Nitrogen, Kalsium, atau Magnesium",
+          "Tanah tidak diberi mulsa sehingga spora terpercik ke daun"
+        ]
+      },
+      "penanganan": [
+        {
+          "tipe": "Kimia — Fungisida Kontak",
+          "produk": "Antracol 70 WP (Propineb)",
+          "bahan_aktif": "Propineb 70%",
+          "dosis": "2 g/liter air",
+          "cara": "Semprot merata atas dan bawah daun hingga runoff; mulai dari daun bawah",
+          "waktu": "Preventif: mulai 7–14 hari setelah tanam; ulangi setiap 7 hari",
+          "catatan": "Fungisida kontak aman dan lembut; cocok untuk proteksi preventif rutin."
+        },
+        {
+          "tipe": "Kimia — Fungisida Sistemik Efektif",
+          "produk": "Score 250 EC (Difenokonazol)",
+          "bahan_aktif": "Difenokonazol 250 g/L",
+          "dosis": "0,25–0,5 ml/liter air",
+          "cara": "Semprot merata; fokus pada daun tua dan daun tengah yang mulai bergejala",
+          "waktu": "Saat gejala pertama muncul; ulangi setiap 10–14 hari",
+          "catatan": "Triazol sistemik sangat efektif (65% reduksi penyakit); hasil penelitian menunjukkan efektivitas tertinggi di antara fungisida tomat."
+        },
+        {
+          "tipe": "Kimia — Fungisida Kombinasi Kuratif",
+          "produk": "Nativo 75 WG (Tebukonazol + Trifloksistrobin)",
+          "bahan_aktif": "Tebukonazol 50% + Trifloksistrobin 25%",
+          "dosis": "0,5 g/liter air",
+          "cara": "Semprot merata; tambahkan perekat untuk adhesi lebih baik di cuaca hujan",
+          "waktu": "Saat infeksi aktif atau tekanan penyakit tinggi; interval 14 hari",
+          "catatan": "Kombinasi paling kuat untuk early blight; gunakan saat serangan berat."
+        }
+      ],
+      "pencegahan": [
+        "Pasang mulsa plastik hitam perak untuk mencegah spora tanah terpercik ke daun bawah.",
+        "Pangkas dan buang daun yang menyentuh tanah untuk mengurangi titik infeksi.",
+        "Lakukan rotasi tanaman non-solanaceae (kacang, jagung) minimal 2–3 tahun.",
+        "Hindari penanaman pada puncak musim hujan; pilih musim kemarau dengan irigasi terkontrol.",
+        "Tanam varietas tomat yang lebih toleran early blight."
+      ],
+      "perawatan": [
+        "Semprot Kalsium (Ca) secara rutin — tanaman cukup Kalsium lebih tahan terhadap Alternaria.",
+        "Monitor daun tua (daun bawah) setiap pagi; deteksi dini memungkinkan respons lebih cepat.",
+        "Pastikan nutrisi mikro (Zn, Mg, Mn) tercukupi untuk memperkuat sistem imun tanaman.",
+        "Pangkas daun bergejala dan kumpulkan untuk dibakar, bukan dibuang sembarangan.",
+        "Hindari menyiram daun secara langsung; arahkan air ke pangkal tanaman."
+      ],
+      "chunk_rag": "Bercak Kering Tomat (Early Blight) disebabkan oleh Alternaria solani/linariae dengan keparahan sedang-tinggi. Gejala khas: bercak cokelat berbentuk lingkaran konsentris 'target spot' pada daun tua, halo kuning di sekitarnya, defoliasi progresif dari bawah ke atas, dan bercak pangkal buah. Berkembang pada kelembapan >85% dan suhu 24–29°C, diperparah oleh tanaman stres kekurangan nutrisi. Inokulum tersimpan di tanah dan sisa tanaman. Penanganan: Antracol 70 WP (Propineb 70%, dosis 2 g/liter) preventif setiap 7 hari, Score 250 EC (Difenokonazol 250 g/L, 0,25–0,5 ml/liter) saat gejala muncul (efektivitas tertinggi — 65% reduksi), atau Nativo 75 WG (Tebukonazol + Trifloksistrobin, 0,5 g/liter) saat serangan berat. Pencegahan: mulsa plastik, pangkas daun menyentuh tanah, rotasi 2–3 tahun non-solanaceae. Perawatan: semprot Kalsium rutin, monitoring daun bawah tiap pagi, pastikan nutrisi mikro cukup."
+    },
+
+    {
+      "id": "tomato_late_blight",
+      "nama_tampil": "Busuk Daun Tomat (Late Blight)",
+      "nama_ilmiah": "Phytophthora infestans",
+      "tanaman": "Tomat",
+      "tingkat_keparahan": "Sangat Tinggi",
+      "gejala": [
+        "Bercak hijau-abu gelap basah (water-soaked) yang meluas sangat cepat (2–3 hari) pada daun",
+        "Lapisan bulu-bulu putih kapas (sporangiophore) tampak di sisi bawah daun saat kondisi lembap",
+        "Daun dan batang menghitam, membusuk, dan berbau khas busuk (tidak ada pada early blight)",
+        "Seluruh tanaman bisa kolaps (lonyot/mati) dalam 1 minggu pada cuaca mendukung",
+        "Buah menunjukkan bercak cokelat minyak yang membesar; buah akhirnya membusuk seluruhnya"
+      ],
+      "patogen": {
+        "nama": "Phytophthora infestans",
+        "tipe": "Oomycete (bukan jamur sejati — lebih dekat ke alga)",
+        "penyebab_utama": "Spora (sporangia) terbawa angin atau hujan dari tanaman terinfeksi; bertahan di umbi kentang",
+        "kondisi_pemicu": [
+          "Suhu sejuk 10–20°C dengan kelembapan sangat tinggi (>90%)",
+          "Hujan awet atau kabut berkepanjangan",
+          "Tanaman tomat ditanam dekat kebun kentang yang terinfeksi"
+        ]
+      },
+      "penanganan": [
+        {
+          "tipe": "Kimia — Fungisida Khusus Oomycete",
+          "produk": "Acrobat 50 WP (Dimetomorf)",
+          "bahan_aktif": "Dimetomorf 50%",
+          "dosis": "1–2 g/liter air",
+          "cara": "Semprot intensif seluruh bagian tanaman: daun (atas-bawah), batang, dan buah; gunakan perekat",
+          "waktu": "SEGERA saat gejala pertama terdeteksi; ulangi setiap 5–7 hari saat hujan terus",
+          "catatan": "Fungisida spesifik Phytophthora; bekerja dari dalam jaringan tanaman. Paling efektif untuk late blight."
+        },
+        {
+          "tipe": "Kimia — Fungisida Preventif Mankozeb",
+          "produk": "Dithane M-45 (Mankozeb)",
+          "bahan_aktif": "Mankozeb 80%",
+          "dosis": "2–2,5 g/liter air",
+          "cara": "Semprot preventif sebelum hujan; tambahkan perekat (sticker)",
+          "waktu": "Aplikasi preventif saat prakiraan cuaca lembap atau hujan berkepanjangan",
+          "catatan": "Protektan kontak; sangat efektif preventif. Kombinasikan dengan Acrobat untuk perlindungan ganda."
+        },
+        {
+          "tipe": "Kimia — Fungisida Sistemik Kombinasi",
+          "produk": "Revus Top (Mandipropamid + Difenokonazol)",
+          "bahan_aktif": "Mandipropamid 250 g/L + Difenokonazol 250 g/L",
+          "dosis": "0,5–0,75 ml/liter air",
+          "cara": "Semprot merata; efektif bahkan setelah hujan (tahan cuci)",
+          "waktu": "Preventif atau kuratif awal; interval 7–10 hari",
+          "catatan": "Salah satu pilihan terbaik untuk late blight; tahan hujan lebih baik dari Acrobat."
+        }
+      ],
+      "pencegahan": [
+        "Jangan tanam tomat dekat kebun kentang — keduanya rentan terhadap P. infestans yang sama.",
+        "Pastikan sistem drainase lahan sangat baik; genangan air meningkatkan kelembapan mikro.",
+        "Tanam varietas tomat yang memiliki toleransi terhadap Phytophthora (misal: Mountain Magic, Defiant).",
+        "Perlebar jarak tanam di musim hujan untuk mempercepat pengeringan kanopi.",
+        "Pantau prakiraan cuaca dan lakukan semprot preventif Mankozeb sebelum cuaca buruk datang."
+      ],
+      "perawatan": [
+        "Cabut dan buang (bakar) tanaman yang terinfeksi sangat parah — jangan kompos.",
+        "Gunakan perekat (sticker/spreader) dalam larutan semprot agar fungisida tidak mudah tercuci hujan.",
+        "Aplikasikan Mankozeb preventif setiap 5–7 hari menjelang musim hujan ekstrem.",
+        "Hindari bekerja di lahan saat tanaman basah — P. infestans menyebar mudah melalui kontak.",
+        "Musnahkan sisa tanaman tomat dan kentang di akhir musim; jangan biarkan di lahan."
+      ],
+      "chunk_rag": "Busuk Daun Tomat (Late Blight) disebabkan oleh Phytophthora infestans (oomycete, bukan jamur sejati) dan merupakan penyakit tomat paling merusak dengan keparahan sangat tinggi — menyebabkan gagal panen total. Gejala: bercak abu-gelap basah yang meluas sangat cepat (2–3 hari), lapisan bulu putih di bawah daun saat lembap, daun dan batang menghitam berbau busuk, seluruh tanaman bisa kolaps dalam 1 minggu. Berkembang pada suhu sejuk 10–20°C dengan kelembapan >90% dan hujan awet. Penanganan SEGERA: Acrobat 50 WP (Dimetomorf 50%, dosis 1–2 g/liter) setiap 5–7 hari — satu-satunya fungisida spesifik P. infestans. Preventif: Dithane M-45 (Mankozeb 80%, 2–2,5 g/liter) sebelum hujan. Kombinasi terbaik: Revus Top (Mandipropamid + Difenokonazol, 0,5–0,75 ml/liter) tahan cuci. Pencegahan: jangan tanam dekat kentang, drainase sangat baik, varietas toleran, jarak tanam lebar. Perawatan: cabut tanaman parah, gunakan perekat di larutan semprot, musnahkan sisa tanaman."
+    }
+
+  ]
+}

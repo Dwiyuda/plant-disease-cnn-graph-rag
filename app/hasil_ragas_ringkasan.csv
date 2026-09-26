@@ -1,0 +1,7 @@
+﻿,rata_rata,item_terhitung,dari_total
+faithfulness,0.9554,60,60
+answer_relevancy,0.8406,60,60
+llm_context_precision_with_reference,0.5714,60,60
+context_recall,0.9725,60,60
+factual_correctness,0.8775,60,60
+semantic_similarity,0.8814,60,60
